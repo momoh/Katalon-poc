@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Make Appointment</name>
+   <name>a_Go to Homepage</name>
    <tag></tag>
-   <elementGuidId>ad072b91-bd0c-4789-b983-789229052802</elementGuidId>
+   <elementGuidId>950c0a50-2a07-486f-8511-eb9c1bfccc6b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='btn-make-appointment']</value>
+         <value>//section[@id='summary']/div/div/div[7]/p/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btn-make-appointment</value>
+         <value>a.btn.btn-default</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Make Appointment&quot;i]</value>
+         <value>internal:role=link[name=&quot;Go to Homepage&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,87 +29,71 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2357b6e2-f401-462b-9450-2a00aaaee5d9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>btn-make-appointment</value>
-      <webElementGuid>07ef746f-4865-4787-9b81-0a415c085c04</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>./profile.php#login</value>
-      <webElementGuid>6b79d672-e166-4817-91d4-f89de62be199</webElementGuid>
+      <webElementGuid>dc36eb7b-0f6d-496b-a464-53f9d71966f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-dark btn-lg</value>
-      <webElementGuid>f4b018fb-0aae-4779-9ee0-20e83cdd4412</webElementGuid>
+      <value>btn btn-default</value>
+      <webElementGuid>a399e1b5-747c-4266-aa9c-95c4afd8fd3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://katalon-demo-cura.herokuapp.com/</value>
+      <webElementGuid>e7ff3210-3e93-44dd-96ee-29cb529b4298</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Make Appointment</value>
-      <webElementGuid>e9cb71bc-2627-4e53-aa69-144fb3cda73c</webElementGuid>
+      <value>Go to Homepage</value>
+      <webElementGuid>571b9140-e849-4f2c-af65-1c4946347236</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btn-make-appointment&quot;)</value>
-      <webElementGuid>dbbdd19e-b203-4118-8727-5457d0ff6efe</webElementGuid>
+      <value>id(&quot;summary&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12&quot;]/p[@class=&quot;text-center&quot;]/a[@class=&quot;btn btn-default&quot;]</value>
+      <webElementGuid>b39152e6-580f-406f-9ddb-213f82742c0e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@id='btn-make-appointment']</value>
-      <webElementGuid>afd3e4ff-b985-4bbb-bb7b-e92cbd94e683</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//header[@id='top']/div/a</value>
-      <webElementGuid>29124d51-53b8-4cca-b829-968c5b2808c6</webElementGuid>
+      <value>//section[@id='summary']/div/div/div[7]/p/a</value>
+      <webElementGuid>9e30991e-e45c-4153-a09a-1649acab2289</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Make Appointment')]</value>
-      <webElementGuid>9d3e88cd-eb63-44c4-b780-22f859bc43dd</webElementGuid>
+      <value>//a[contains(text(),'Go to Homepage')]</value>
+      <webElementGuid>b8c459f7-1e43-45b8-8388-63e50bbd0275</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='We Care About Your Health'])[1]/following::a[1]</value>
-      <webElementGuid>2b81d1e8-aa21-425e-be5a-10f10cbc1fa4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comment'])[1]/following::a[1]</value>
+      <webElementGuid>0ea3883d-71f0-4dd8-bbe0-ec2fc5344192</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[2]/following::a[1]</value>
-      <webElementGuid>1f3a7077-c195-4c11-a963-ed8f89ae280c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Visit Date'])[1]/following::a[1]</value>
+      <webElementGuid>5a30b47a-5ab3-4029-af92-7afce9b20ffa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[3]/preceding::a[1]</value>
-      <webElementGuid>65168bae-183f-4474-ba65-7594e641277b</webElementGuid>
+      <webElementGuid>c76f05c9-f54b-4b3c-94bf-077bf54ec792</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,38 +109,38 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(678) 813-1KMS'])[1]/preceding::a[1]</value>
-      <webElementGuid>d210df48-fb03-4a59-a0c2-84b0699ba959</webElementGuid>
+      <webElementGuid>a7a5d89f-6285-4089-a534-00ee15458881</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Make Appointment']/parent::*</value>
-      <webElementGuid>cac2abe6-4ea0-4c06-ac0b-de8baa7f6b5a</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Go to Homepage']/parent::*</value>
+      <webElementGuid>90c58c42-2935-4bbf-bd73-c7932245ffb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, './profile.php#login')]</value>
-      <webElementGuid>f162ab6a-ab08-498f-8d82-922f1d259ef6</webElementGuid>
+      <value>//a[contains(@href, 'https://katalon-demo-cura.herokuapp.com/')]</value>
+      <webElementGuid>7007fdd5-bd6d-4d40-8a9a-c4ddd382a6c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/a</value>
-      <webElementGuid>86c14ff2-85f4-4413-85e6-9e7c749e05a1</webElementGuid>
+      <value>//p/a</value>
+      <webElementGuid>6d848aa5-5f38-477a-a213-d039cdbe90fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'btn-make-appointment' and @href = './profile.php#login' and (text() = 'Make Appointment' or . = 'Make Appointment')]</value>
-      <webElementGuid>4818965e-4bf6-4710-b2c1-c5c78b318558</webElementGuid>
+      <value>//a[@href = 'https://katalon-demo-cura.herokuapp.com/' and (text() = 'Go to Homepage' or . = 'Go to Homepage')]</value>
+      <webElementGuid>aef7ee45-ebbe-4bba-bb2a-7ec662d8f7bc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

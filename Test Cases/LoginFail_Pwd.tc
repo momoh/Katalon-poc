@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginFail_Pwd</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6c4a0d43-5f3c-440d-b353-a1e2fba4c575</testCaseGuid>
+</TestCaseEntity>
