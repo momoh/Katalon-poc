@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+API_testing,,,,15-04-2024 06:48:31,15-04-2024 06:48:50,"18,839s",FAILED
+,,,,,,,
+Test Cases/APi_tests/GetEmployeeList_Test,,,,15-04-2024 06:48:31,15-04-2024 06:48:37,"5,765s",PASSED
+"response = sendRequest(findTestObject(""API testing/GetEmployeeList""))",,,,15-04-2024 06:48:32,15-04-2024 06:48:37,"5,051s",PASSED
+"verifyResponseStatusCode(response, 200)",,,,15-04-2024 06:48:37,15-04-2024 06:48:37,"0,052s",PASSED
+,,,,,,,
+Test Cases/APi_tests/CreateEmployee,,,,15-04-2024 06:48:41,15-04-2024 06:48:42,"0,627s",FAILED
+"sendRequestAndVerify(findTestObject(""API testing/CreateEmployee""))",,,,15-04-2024 06:48:41,15-04-2024 06:48:42,"0,591s",FAILED
+,,,,,,,
+Test Cases/APi_tests/GetEmployeeList,,,,15-04-2024 06:48:42,15-04-2024 06:48:43,"1,412s",PASSED
+"sendRequestAndVerify(findTestObject(""API testing/GestEmployeeDetails""))",,,,15-04-2024 06:48:42,15-04-2024 06:48:43,"1,244s",PASSED
+,,,,,,,
+Test Cases/APi_tests/GetEmployeeList_Test,,,,15-04-2024 06:48:45,15-04-2024 06:48:46,"0,714s",FAILED
+"response = sendRequest(findTestObject(""API testing/GetEmployeeList""))",,,,15-04-2024 06:48:45,15-04-2024 06:48:46,"0,671s",PASSED
+"verifyResponseStatusCode(response, 200)",,,,15-04-2024 06:48:46,15-04-2024 06:48:46,"0,008s",FAILED
+,,,,,,,
+Test Cases/APi_tests/UpdateEmplyee,,,,15-04-2024 06:48:49,15-04-2024 06:48:50,"0,986s",FAILED
+"sendRequestAndVerify(findTestObject(""API testing/UpdateUser""))",,,,15-04-2024 06:48:49,15-04-2024 06:48:50,"0,958s",FAILED

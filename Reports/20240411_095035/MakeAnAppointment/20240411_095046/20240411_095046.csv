@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MakeAnAppointment,MacOS - Safari 17,,,11-04-2024 09:51:01,11-04-2024 09:52:49,"1m - 47,462s",PASSED
+,,,,,,,
+Test Cases/MakeAnAppointment,MacOS - Safari 17,,,11-04-2024 09:51:02,11-04-2024 09:51:47,"45,022s",PASSED
+example.MyKeyWords.AppLogin(),MacOS - Safari 17,,,11-04-2024 09:51:02,11-04-2024 09:51:38,"35,576s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Visit Date (Required)_input-group-addon""))",MacOS - Safari 17,,,11-04-2024 09:51:38,11-04-2024 09:51:39,"1,391s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_29""))",MacOS - Safari 17,,,11-04-2024 09:51:39,11-04-2024 09:51:40,"1,052s",PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""rdv"")",MacOS - Safari 17,,,11-04-2024 09:51:40,11-04-2024 09:51:42,"2,078s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",MacOS - Safari 17,,,11-04-2024 09:51:42,11-04-2024 09:51:44,"1,343s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_rdv""))",MacOS - Safari 17,,,11-04-2024 09:51:44,11-04-2024 09:51:45,"1,118s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Medicare""))",MacOS - Safari 17,,,11-04-2024 09:51:45,11-04-2024 09:51:46,"1,134s",PASSED
+closeBrowser(),MacOS - Safari 17,,,11-04-2024 09:51:46,11-04-2024 09:51:47,"0,822s",PASSED
+,,,,,,,
+Test Cases/Loop,MacOS - Safari 17,,,11-04-2024 09:51:47,11-04-2024 09:52:49,"1m - 1,960s",PASSED
+example.MyKeyWords.AppLogin(),MacOS - Safari 17,,,11-04-2024 09:51:47,11-04-2024 09:52:20,"32,843s",PASSED
+for (def n : (0..2)),MacOS - Safari 17,,,11-04-2024 09:52:20,11-04-2024 09:52:48,"27,823s",PASSED
+closeBrowser(),MacOS - Safari 17,,,11-04-2024 09:52:48,11-04-2024 09:52:49,"1,126s",PASSED

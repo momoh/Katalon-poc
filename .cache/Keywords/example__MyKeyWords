@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "FDC6F3AA2608FA04E5FE92EC1C38624B",
+  "keywordClasses": [
+    {
+      "name": "example.MyKeyWords",
+      "keywordMethods": [
+        {
+          "name": "AppLogin",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

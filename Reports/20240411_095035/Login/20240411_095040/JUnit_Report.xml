@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="114.637" tests="3" failures="0" errors="0">
+   <testsuite name="Login" tests="3" failures="0" errors="0" time="114.637" skipped="0" timestamp="11-04-2024T09:50:59" hostname="momoussaoui - CAW2107151.ca.deloitte.com" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\momoussaoui@deloitte.ca\\git\\Katalon-poc\\Reports\\20240411_095035\\Login\\20240411_095040"/>
+         <property name="logFiles" value="C:\\Users\\momoussaoui@deloitte.ca\\git\\Katalon-poc\\Reports\\20240411_095035\\Login\\20240411_095040\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="momoussaoui - CAW2107151.ca.deloitte.com"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;requestId&quot;: &quot;afc78577-9076-4c1f-a0d8-e0e0a5a8e043&quot;,&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;122.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;unlimitedExecutionMinutes&quot;: true,&#xa;    &quot;userId&quot;: 1008663,&#xa;    &quot;organizationId&quot;: &quot;134738&quot;,&#xa;    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;122.0.6261.6 (294fa47bfa42226d7b32fdf1f0e56223ee875cf6-refs/branch-heads/6261@{#16})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Windows\\SystemTemp\\scoped_dir8732_994464528&quot;&#xa;  },&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;version&quot;: &quot;122&quot;,&#xa;  &quot;se:cdp&quot;: &quot;ws://172.48.33.251:4444/session/5ffa052e4224287451511fd7a5235153/se/cdp&quot;,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.138.2"/>
+         <property name="sessionId" value="5ffa052e4224287451511fd7a5235153"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="42.756" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[11-04-2024T09:51:00 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+11-04-2024T09:51:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-04-2024T09:51:01 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+11-04-2024T09:51:01 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+11-04-2024T09:51:01 - [MESSAGE][INFO] - User set preference: ['browserVersion', '122']
+
+11-04-2024T09:51:01 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=134738, tunnelId=, usingTunnel=false}']
+
+11-04-2024T09:51:01 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+11-04-2024T09:51:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-04-2024T09:51:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-04-2024T09:51:27 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-04-2024T09:51:28 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-04-2024T09:51:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+11-04-2024T09:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+11-04-2024T09:51:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+11-04-2024T09:51:34 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+11-04-2024T09:51:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+11-04-2024T09:51:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+11-04-2024T09:51:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+11-04-2024T09:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+11-04-2024T09:51:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/h2_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/h2_Make Appointment' is clicked on
+
+11-04-2024T09:51:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/h2_Make Appointment' is clicked on
+
+11-04-2024T09:51:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_CURA Healthcare Service/h2_Make Appointment")): Object 'Object Repository/Page_CURA Healthcare Service/h2_Make Appointment' is visible
+
+11-04-2024T09:51:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2_Make Appointment' is visible
+
+11-04-2024T09:51:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-04-2024T09:51:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginFail_Pwd" time="34.419" classname="Test Cases/LoginFail_Pwd" status="PASSED">
+         <system-out><![CDATA[11-04-2024T09:51:43 - [TEST_CASE][PASSED] - Test Cases/LoginFail_Pwd: Test Cases/LoginFail_Pwd
+
+11-04-2024T09:51:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-04-2024T09:51:43 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+11-04-2024T09:51:43 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+11-04-2024T09:51:43 - [MESSAGE][INFO] - User set preference: ['browserVersion', '122']
+
+11-04-2024T09:51:43 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=134738, tunnelId=, usingTunnel=false}']
+
+11-04-2024T09:51:43 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+11-04-2024T09:51:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-04-2024T09:52:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-04-2024T09:52:02 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-04-2024T09:52:03 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-04-2024T09:52:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+11-04-2024T09:52:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+11-04-2024T09:52:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+11-04-2024T09:52:08 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+11-04-2024T09:52:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "b/98lgFmTtuLvynNFOQHnA=="): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+11-04-2024T09:52:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+11-04-2024T09:52:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+11-04-2024T09:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+11-04-2024T09:52:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/div_Login                Please login to ma_d0c010")): Object: 'Object Repository/Page_CURA Healthcare Service/div_Login                Please login to ma_d0c010' is clicked on
+
+11-04-2024T09:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/div_Login                Please login to ma_d0c010' is clicked on
+
+11-04-2024T09:52:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5")): Object 'Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+11-04-2024T09:52:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+11-04-2024T09:52:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-04-2024T09:52:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginFail_User" time="37.059" classname="Test Cases/LoginFail_User" status="PASSED">
+         <system-out><![CDATA[11-04-2024T09:52:17 - [TEST_CASE][PASSED] - Test Cases/LoginFail_User: Test Cases/LoginFail_User
+
+11-04-2024T09:52:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-04-2024T09:52:17 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+11-04-2024T09:52:17 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+11-04-2024T09:52:17 - [MESSAGE][INFO] - User set preference: ['browserVersion', '122']
+
+11-04-2024T09:52:17 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=134738, tunnelId=, usingTunnel=false}']
+
+11-04-2024T09:52:17 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+11-04-2024T09:52:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-04-2024T09:52:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-04-2024T09:52:38 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-04-2024T09:52:39 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-04-2024T09:52:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+11-04-2024T09:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+11-04-2024T09:52:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "mmo"): Text 'mmo' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+11-04-2024T09:52:45 - [MESSAGE][PASSED] - Text 'mmo' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+11-04-2024T09:52:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+11-04-2024T09:52:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+11-04-2024T09:52:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+11-04-2024T09:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+11-04-2024T09:52:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5")): Object: 'Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is clicked on
+
+11-04-2024T09:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is clicked on
+
+11-04-2024T09:52:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5")): Object 'Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+11-04-2024T09:52:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+11-04-2024T09:52:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-04-2024T09:52:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-04-2024T09:50:59 - [TEST_SUITE][PASSED] - Login: Test Cases/LoginFail_User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
