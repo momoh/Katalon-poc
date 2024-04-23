@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_amchich - Recherche Google/h3_amchiche  Wiktionnaire, le dictionnaire libre",
+      "brokenLocator": "//div[@id\u003d\u0027rso\u0027]/div[2]/div/div/div/div/div/span/a/h3",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Tout afficher\u0027])[1]/following::h3[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_amchich - Recherche Google/h3_amchiche  Wiktionnaire, le dictionnaire libre_neighbor.png"
+    }
+  ]
 }
