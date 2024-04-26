@@ -7,21 +7,21 @@
    <testCaseGuid>4dd52196-7639-4ca3-9497-8082aa3df321</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>cb333dc5-f7cf-4296-9c0a-44386a976e69</id>
+      <id>898a365d-89ca-4885-a27a-7fb626bb9b9b</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/100 texts</testDataId>
+      <testDataId>Data Files/Data</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>cb333dc5-f7cf-4296-9c0a-44386a976e69</testDataLinkId>
+      <testDataLinkId>898a365d-89ca-4885-a27a-7fb626bb9b9b</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Text</value>
       <variableId>45f576f9-6a36-42f5-b926-6b1142dd680e</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>cb333dc5-f7cf-4296-9c0a-44386a976e69</testDataLinkId>
+      <testDataLinkId>898a365d-89ca-4885-a27a-7fb626bb9b9b</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Result</value>
       <variableId>92f364b7-58eb-46df-a218-f8709e365a00</variableId>

@@ -6,12 +6,12 @@
    <elementGuidId>017d49fa-007f-42b1-940b-7ff094ea520c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='appointment']/div/div/form/div[3]/div/label[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='appointment']/div/div/form/div[3]/div/label[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>ea82044d-725e-47f1-b8e9-c8d360f444df</webElementGuid>
+      <webElementGuid>47f10b8f-2567-4462-9161-03f9e7179970</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>radio-inline</value>
-      <webElementGuid>da523448-cd99-4fb2-970d-f5167843b232</webElementGuid>
+      <webElementGuid>2af273f7-a8ea-4474-9813-d050b3912ab3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <value>
                              Medicaid
                         </value>
-      <webElementGuid>be66214a-ef6a-4189-9b21-13ef3eac49e4</webElementGuid>
+      <webElementGuid>d344d44c-c919-4366-a18e-60ad0fdd2f5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;appointment&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-4&quot;]/label[@class=&quot;radio-inline&quot;]</value>
-      <webElementGuid>93038ca5-c54b-452e-8bd2-55b3b96523f8</webElementGuid>
+      <webElementGuid>d248b62c-d654-4915-ab56-b25ca64f0223</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='appointment']/div/div/form/div[3]/div/label[2]</value>
-      <webElementGuid>b228e2c7-a62c-4c16-bfe3-c9a32c6669f2</webElementGuid>
+      <webElementGuid>9d405314-f85d-42ba-9e49-f3d22b7e7873</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Healthcare Program'])[1]/following::label[2]</value>
-      <webElementGuid>2d86e1f6-4df9-4c61-a49d-fbca35275bd9</webElementGuid>
+      <webElementGuid>7edbbdb2-0e21-4909-94b9-403005c5c092</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Visit Date (Required)'])[1]/preceding::label[2]</value>
-      <webElementGuid>7011c165-b693-4b7c-b6c6-e184bea665f0</webElementGuid>
+      <webElementGuid>6c2bc9c4-8148-4456-83b0-4479139d6045</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Medicaid']/parent::*</value>
-      <webElementGuid>4ced459e-9ea3-4202-8d57-3c2f92ed4d07</webElementGuid>
+      <webElementGuid>4285f34f-8364-46c4-b0b0-66907e146be9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label[2]</value>
-      <webElementGuid>75d0ae45-bca4-4eba-b21b-d637ce4cb14d</webElementGuid>
+      <webElementGuid>0a153856-0142-4091-acab-dc4a576b498a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,6 +107,6 @@
                         ' or . = '
                              Medicaid
                         ')]</value>
-      <webElementGuid>d49c2a30-7b43-4ee2-ab24-98278f185842</webElementGuid>
+      <webElementGuid>469cfdb7-9d0f-42aa-944e-eade89e6264d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

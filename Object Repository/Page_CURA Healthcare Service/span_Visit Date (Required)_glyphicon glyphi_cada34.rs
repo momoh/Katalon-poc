@@ -6,19 +6,19 @@
    <elementGuidId>169803af-5841-42f4-8c75-89d07a4168dd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='appointment']/div/div/form/div[4]/div/div/div/span</value>
+         <key>CSS</key>
+         <value>span.glyphicon.glyphicon-lock</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>span.glyphicon.glyphicon-calendar</value>
+         <key>XPATH</key>
+         <value>//span[@id='demo_password_label']/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>span</value>
+         <value>#demo_password_label span</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,26 +29,50 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>a29ccb97-ec2e-4740-9c09-ccb68a740425</webElementGuid>
+      <webElementGuid>8eff5806-5814-4f95-a1bc-ea3fc097231c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>glyphicon glyphicon-calendar</value>
-      <webElementGuid>273e2d5e-6c8c-427b-a24f-e37b0fc170ee</webElementGuid>
+      <value>glyphicon glyphicon-lock</value>
+      <webElementGuid>f35e0f64-002a-4593-a518-8a202ecdb5df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;appointment&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-4&quot;]/div[@class=&quot;input-group date&quot;]/div[@class=&quot;input-group-addon&quot;]/span[@class=&quot;glyphicon glyphicon-calendar&quot;]</value>
-      <webElementGuid>4d9ca375-4ac2-4461-b21d-f6bab47fbf3b</webElementGuid>
+      <value>id(&quot;demo_password_label&quot;)/span[@class=&quot;glyphicon glyphicon-lock&quot;]</value>
+      <webElementGuid>8555ad18-049e-4243-a46d-6fe1f78e362b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>120c98c4-abd3-49b0-821c-2968be86741d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='demo_password_label']/span</value>
+      <webElementGuid>11555380-98b4-4955-b923-7811ecf874fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/span/span</value>
+      <webElementGuid>7f85dd93-3cd7-4dd9-b595-0606ebd10e37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

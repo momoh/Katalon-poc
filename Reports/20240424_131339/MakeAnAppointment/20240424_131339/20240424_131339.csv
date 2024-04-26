@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MakeAnAppointment,Chrome 124.0.0.0,,,24-04-2024 13:13:49,24-04-2024 13:14:15,"26,203s",PASSED
+,,,,,,,
+Test Cases/Web_tests/MakeAnAppointment,Chrome 124.0.0.0,,,24-04-2024 13:13:49,24-04-2024 13:13:58,"9,758s",PASSED
+example.MyKeyWords.AppLogin(),Chrome 124.0.0.0,,,24-04-2024 13:13:49,24-04-2024 13:13:55,"6,150s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Visit Date (Required)_input-group-addon""))",Chrome 124.0.0.0,,,24-04-2024 13:13:55,24-04-2024 13:13:56,"0,445s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_29""))",Chrome 124.0.0.0,,,24-04-2024 13:13:56,24-04-2024 13:13:56,"0,441s",PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""rdv"")",Chrome 124.0.0.0,,,24-04-2024 13:13:56,24-04-2024 13:13:57,"0,818s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 124.0.0.0,,,24-04-2024 13:13:57,24-04-2024 13:13:57,"0,459s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_rdv""))",Chrome 124.0.0.0,,,24-04-2024 13:13:57,24-04-2024 13:13:58,"0,447s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Medicare""))",Chrome 124.0.0.0,,,24-04-2024 13:13:58,24-04-2024 13:13:58,"0,323s",PASSED
+closeBrowser(),Chrome 124.0.0.0,,,24-04-2024 13:13:58,24-04-2024 13:13:58,"0,312s",PASSED
+,,,,,,,
+Test Cases/Web_tests/Loop,Chrome 124.0.0.0,,,24-04-2024 13:13:58,24-04-2024 13:14:15,"16,239s",PASSED
+example.MyKeyWords.AppLogin(),Chrome 124.0.0.0,,,24-04-2024 13:13:59,24-04-2024 13:14:03,"4,829s",PASSED
+for (def n : (0..2)),Chrome 124.0.0.0,,,24-04-2024 13:14:03,24-04-2024 13:14:14,"10,994s",PASSED
+closeBrowser(),Chrome 124.0.0.0,,,24-04-2024 13:14:14,24-04-2024 13:14:15,"0,258s",PASSED
