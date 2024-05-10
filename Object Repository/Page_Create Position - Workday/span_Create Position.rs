@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Create Position</name>
+   <tag></tag>
+   <elementGuidId>75d22f68-5713-47d4-90e0-8606552e08cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h1[@id='heading_94109cd2-813f-4a14-b0ae-cd321d5f9910']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.WKXK</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Create Position&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2ee4078c-f405-4947-bcd3-f9c376ce440f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-automation-id</name>
+      <type>Main</type>
+      <value>pageHeaderTitleText</value>
+      <webElementGuid>62bf0e40-5115-4d84-806d-d68199938650</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>WKXK</value>
+      <webElementGuid>b04e9fa4-193b-4e57-893a-72bd5d1e6892</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Create Position</value>
+      <webElementGuid>cd03b5da-a06f-40c8-bde9-72850167581d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create Position</value>
+      <webElementGuid>440ce84d-298b-4ece-acf1-d02338fdacf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;heading_94109cd2-813f-4a14-b0ae-cd321d5f9910&quot;)/span[@class=&quot;WKXK&quot;]</value>
+      <webElementGuid>454ad950-4542-4e4f-8178-ed3c0ebaedeb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//h1[@id='heading_94109cd2-813f-4a14-b0ae-cd321d5f9910']/span</value>
+      <webElementGuid>1a0675b3-8c8a-4f40-96a0-64cc51487e64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Out'])[1]/following::span[9]</value>
+      <webElementGuid>eed25980-f268-4669-b157-ef5737c9359d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='opens new window'])[2]/following::span[11]</value>
+      <webElementGuid>b306a235-00b3-457f-9306-7704175196fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Supervisory Organization'])[1]/preceding::span[2]</value>
+      <webElementGuid>de41cf19-b396-4a15-9c23-7a27e4f0325d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Position Request Reason'])[1]/preceding::span[2]</value>
+      <webElementGuid>d0f08afb-bafd-4148-b807-6c4ba6dd0f2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create Position']/parent::*</value>
+      <webElementGuid>ce89ae70-f167-4eaa-827f-4349cf8ce914</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1/span</value>
+      <webElementGuid>99430597-5ebb-4816-9d0e-c94103b53ef1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@title = 'Create Position' and (text() = 'Create Position' or . = 'Create Position')]</value>
+      <webElementGuid>0c8786b6-7b5d-4649-a0b3-9d556b91e7f6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

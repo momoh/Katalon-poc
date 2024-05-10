@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Create Position</name>
+   <tag></tag>
+   <elementGuidId>ed1d151c-7151-4ff1-81c8-fbabeaf2c871</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='wd-autocomplete-result-0']/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1c47t1k-HeaderTextContainer.e1d42mt04</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Create Position$/</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>74d59118-502a-46b2-a17f-050565f66410</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>ltr</value>
+      <webElementGuid>a01859b7-bb51-4865-af4e-195f7e8f8b75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-automation-id</name>
+      <type>Main</type>
+      <value>searchInputAutoCompleteResultFullText</value>
+      <webElementGuid>6a22d78f-1662-4de5-9cf1-6d3554cf8daf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1c47t1k-HeaderTextContainer e1d42mt04</value>
+      <webElementGuid>0d162c4b-928b-494d-bc7a-ab9f41efd1ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create Position</value>
+      <webElementGuid>4c06e5d1-1a6a-41b4-b930-9d964bafc67d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wd-autocomplete-result-0&quot;)/div[@class=&quot;css-1mmkhti-Container e1d42mt00&quot;]/div[@class=&quot;css-oi45gb-LabelContainer e1d42mt03&quot;]/div[@class=&quot;css-1c47t1k-HeaderTextContainer e1d42mt04&quot;]</value>
+      <webElementGuid>385abfe3-4e72-41b5-bab0-15882ef3acc7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='wd-autocomplete-result-0']/div/div[2]/div</value>
+      <webElementGuid>a1f26c7a-9b99-46b3-8b8c-235e187e3fc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Shortcuts'])[1]/following::div[15]</value>
+      <webElementGuid>7ac4dab5-d731-4301-9d93-a1d0613c5cf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Use Shortcuts to save reports, tasks, and external links here.'])[1]/following::div[16]</value>
+      <webElementGuid>62c76def-dff0-444c-8284-d91a5ad2b857</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div/div[2]/div</value>
+      <webElementGuid>a57683ae-682e-48cf-9cd8-709ea355fe29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Create Position' or . = 'Create Position')]</value>
+      <webElementGuid>1d674031-d4d9-44e7-8597-652e48f15518</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

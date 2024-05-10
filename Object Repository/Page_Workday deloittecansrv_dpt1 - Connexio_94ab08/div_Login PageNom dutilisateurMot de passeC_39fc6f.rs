@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Login PageNom dutilisateurMot de passeC_39fc6f</name>
+   <tag></tag>
+   <elementGuidId>563b0208-0ee5-4a8a-b587-7d5e8678a10d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='container']/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.GDPVGE1BOYB</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.GDPVGE1BOYB</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>07ea86d3-2e7d-4574-b068-f76c25f36f3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>GDPVGE1BOYB</value>
+      <webElementGuid>d2e1e4df-e2e1-4966-bf61-c9f22c33183e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Login PageNom d'utilisateurMot de passeConnexionModifier le mot de passeNotification aux utilisateursWelcome to the Deloitte's Canadian Tenant !Unlike the Deloitte's GMS tenant, the configurations won't be lost with Workday Releases.This tenant usage is for documentation of configuration only;DO NOT PERFORM ANY CHANGES NOR TESTS IN THIS TENANT.Configuration enhancement suggestionsPlease communicate with your Squad Champion (look under the Module tab in Teams Workday Canada HCM > Module channel > Module tab)TestsPlease use:Deloitte's GMS tenant that refreshed at each Workday Releases (for credentials request, contact US Workday Partner group and provide them a proof of your latest Workday certification or re-certification following new Workday Releases)Workday's GMS tenant that refreshed every dayNotificationNOTICE TO USERS:TESTThis computer system is the property of Workday and is for authorized use only. Users have no explicit or implicit expectation of privacy. By using this system, the user consents to interception, monitoring, recording, copying, auditing, inspection, and disclosure of information as needed to perform the legitimate business functions of Workday.If you have questions about this policy, please contact support@workday.com.StatutYour Implementation tenant will be unavailable for a maximum of 12 hours during the next Weekly Service Update; starting on Friday, May 10, 2024 at 6:00 PM Pacific Time (Los Angeles) (GMT-7) until Saturday, May 11, 2024 at 6:00 AM Pacific Time (Los Angeles) (GMT-7).Your Implementation tenant will be unavailable for a maximum of 12 hours during the next Weekly Service Update; starting on Friday, May 10, 2024 at 6:00 PM Pacific Time (Los Angeles) (GMT-7) until Saturday, May 11, 2024 at 6:00 AM Pacific Time (Los Angeles) (GMT-7).Connexion proxyRetour à l'ouverture de session</value>
+      <webElementGuid>da4f46b3-5a0d-407c-a261-b2a5dfd51e55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;container&quot;)/div[@class=&quot;GDPVGE1BNXB GDPVGE1BPXB GDPVGE1BF0B&quot;]/div[@class=&quot;GDPVGE1BOXB&quot;]/div[@class=&quot;GDPVGE1BOYB&quot;]</value>
+      <webElementGuid>04b67401-7abd-41bc-83d6-4381a519810c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='container']/div/div/div[2]</value>
+      <webElementGuid>ade2ba0a-4f69-440b-afeb-bf93d4c4398d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]</value>
+      <webElementGuid>36b01a55-e102-45e1-8260-d9246a80853d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;Login PageNom d&quot; , &quot;'&quot; , &quot;utilisateurMot de passeConnexionModifier le mot de passeNotification aux utilisateursWelcome to the Deloitte&quot; , &quot;'&quot; , &quot;s Canadian Tenant !Unlike the Deloitte&quot; , &quot;'&quot; , &quot;s GMS tenant, the configurations won&quot; , &quot;'&quot; , &quot;t be lost with Workday Releases.This tenant usage is for documentation of configuration only;DO NOT PERFORM ANY CHANGES NOR TESTS IN THIS TENANT.Configuration enhancement suggestionsPlease communicate with your Squad Champion (look under the Module tab in Teams Workday Canada HCM > Module channel > Module tab)TestsPlease use:Deloitte&quot; , &quot;'&quot; , &quot;s GMS tenant that refreshed at each Workday Releases (for credentials request, contact US Workday Partner group and provide them a proof of your latest Workday certification or re-certification following new Workday Releases)Workday&quot; , &quot;'&quot; , &quot;s GMS tenant that refreshed every dayNotificationNOTICE TO USERS:TESTThis computer system is the property of Workday and is for authorized use only. Users have no explicit or implicit expectation of privacy. By using this system, the user consents to interception, monitoring, recording, copying, auditing, inspection, and disclosure of information as needed to perform the legitimate business functions of Workday.If you have questions about this policy, please contact support@workday.com.StatutYour Implementation tenant will be unavailable for a maximum of 12 hours during the next Weekly Service Update; starting on Friday, May 10, 2024 at 6:00 PM Pacific Time (Los Angeles) (GMT-7) until Saturday, May 11, 2024 at 6:00 AM Pacific Time (Los Angeles) (GMT-7).Your Implementation tenant will be unavailable for a maximum of 12 hours during the next Weekly Service Update; starting on Friday, May 10, 2024 at 6:00 PM Pacific Time (Los Angeles) (GMT-7) until Saturday, May 11, 2024 at 6:00 AM Pacific Time (Los Angeles) (GMT-7).Connexion proxyRetour à l&quot; , &quot;'&quot; , &quot;ouverture de session&quot;) or . = concat(&quot;Login PageNom d&quot; , &quot;'&quot; , &quot;utilisateurMot de passeConnexionModifier le mot de passeNotification aux utilisateursWelcome to the Deloitte&quot; , &quot;'&quot; , &quot;s Canadian Tenant !Unlike the Deloitte&quot; , &quot;'&quot; , &quot;s GMS tenant, the configurations won&quot; , &quot;'&quot; , &quot;t be lost with Workday Releases.This tenant usage is for documentation of configuration only;DO NOT PERFORM ANY CHANGES NOR TESTS IN THIS TENANT.Configuration enhancement suggestionsPlease communicate with your Squad Champion (look under the Module tab in Teams Workday Canada HCM > Module channel > Module tab)TestsPlease use:Deloitte&quot; , &quot;'&quot; , &quot;s GMS tenant that refreshed at each Workday Releases (for credentials request, contact US Workday Partner group and provide them a proof of your latest Workday certification or re-certification following new Workday Releases)Workday&quot; , &quot;'&quot; , &quot;s GMS tenant that refreshed every dayNotificationNOTICE TO USERS:TESTThis computer system is the property of Workday and is for authorized use only. Users have no explicit or implicit expectation of privacy. By using this system, the user consents to interception, monitoring, recording, copying, auditing, inspection, and disclosure of information as needed to perform the legitimate business functions of Workday.If you have questions about this policy, please contact support@workday.com.StatutYour Implementation tenant will be unavailable for a maximum of 12 hours during the next Weekly Service Update; starting on Friday, May 10, 2024 at 6:00 PM Pacific Time (Los Angeles) (GMT-7) until Saturday, May 11, 2024 at 6:00 AM Pacific Time (Los Angeles) (GMT-7).Your Implementation tenant will be unavailable for a maximum of 12 hours during the next Weekly Service Update; starting on Friday, May 10, 2024 at 6:00 PM Pacific Time (Los Angeles) (GMT-7) until Saturday, May 11, 2024 at 6:00 AM Pacific Time (Los Angeles) (GMT-7).Connexion proxyRetour à l&quot; , &quot;'&quot; , &quot;ouverture de session&quot;))]</value>
+      <webElementGuid>79b63036-daa1-49a8-a126-bc27d621bc7a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
