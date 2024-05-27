@@ -64,7 +64,7 @@ WebUI.click(findTestObject('Object Repository/Page_Create Position - Workday/spa
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Create Position - Workday/span_Create Position'), 'Create Position')
 
-WebUI.takeFullPageScreenshotAsCheckpoint('')
+WebUI.takeFullPageScreenshotAsCheckpoint('8')
 
 WebUI.closeBrowser()
 

@@ -249,6 +249,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Home - Workday/div_Create Position_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Search Results - Saved Categories - Workday/a_Start Proxy",
+      "brokenLocator": "//div[@id\u003d\u0027d5bdebed089b46ab814cf25830097a29\u0027]/div/div/div/div/div/ol/li/div/ol/li/div/div/div/h3/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Start Proxy\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Search Results - Saved Categories - Workday/a_Start Proxy_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Start Proxy - Workday/span_OK",
+      "brokenLocator": "//button[@id\u003d\u0027fe76ee4f8f1e46848bb379ce3c122743\u0027]/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Act As\u0027])[1]/following::span[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Start Proxy - Workday/span_OK_neighbor.png"
     }
   ]
 }

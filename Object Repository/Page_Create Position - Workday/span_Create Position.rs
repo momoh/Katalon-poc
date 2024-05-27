@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//h1[@id='heading_94109cd2-813f-4a14-b0ae-cd321d5f9910']/span</value>
+         <value>//*[@id=&quot;wd-searchInput&quot;]/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>2ee4078c-f405-4947-bcd3-f9c376ce440f</webElementGuid>
+      <webElementGuid>c370f4d8-c6c0-4687-bdfc-2f23c34bcca3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>data-automation-id</name>
       <type>Main</type>
       <value>pageHeaderTitleText</value>
-      <webElementGuid>62bf0e40-5115-4d84-806d-d68199938650</webElementGuid>
+      <webElementGuid>49e4d7f4-0caf-416d-8f50-50f8b477f387</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>WKXK</value>
-      <webElementGuid>b04e9fa4-193b-4e57-893a-72bd5d1e6892</webElementGuid>
+      <webElementGuid>9ac8b895-294f-42ed-828c-375af0bb36b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Create Position</value>
-      <webElementGuid>cd03b5da-a06f-40c8-bde9-72850167581d</webElementGuid>
+      <webElementGuid>9c2d744f-faed-454e-88af-2230118f8431</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Create Position</value>
-      <webElementGuid>440ce84d-298b-4ece-acf1-d02338fdacf1</webElementGuid>
+      <webElementGuid>2f58c29e-6f22-473b-b33e-1b89dfdb2abc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;heading_94109cd2-813f-4a14-b0ae-cd321d5f9910&quot;)/span[@class=&quot;WKXK&quot;]</value>
-      <webElementGuid>454ad950-4542-4e4f-8178-ed3c0ebaedeb</webElementGuid>
+      <webElementGuid>08ad70f5-83de-40b6-8e61-8d24ef3dc275</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//h1[@id='heading_94109cd2-813f-4a14-b0ae-cd321d5f9910']/span</value>
-      <webElementGuid>1a0675b3-8c8a-4f40-96a0-64cc51487e64</webElementGuid>
+      <webElementGuid>6b6546e8-6531-4f26-bb73-27bf091375f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Out'])[1]/following::span[9]</value>
-      <webElementGuid>eed25980-f268-4669-b157-ef5737c9359d</webElementGuid>
+      <webElementGuid>b65b4401-4472-40df-bb70-b2a579b9196f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='opens new window'])[2]/following::span[11]</value>
-      <webElementGuid>b306a235-00b3-457f-9306-7704175196fc</webElementGuid>
+      <webElementGuid>ef467e38-2b5b-46a7-bebe-a84d08456020</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Supervisory Organization'])[1]/preceding::span[2]</value>
-      <webElementGuid>de41cf19-b396-4a15-9c23-7a27e4f0325d</webElementGuid>
+      <webElementGuid>864097ed-4ced-47bd-91d2-a8e75bae1b44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Position Request Reason'])[1]/preceding::span[2]</value>
-      <webElementGuid>d0f08afb-bafd-4148-b807-6c4ba6dd0f2e</webElementGuid>
+      <webElementGuid>1cffc5fe-5195-45a6-bf46-e9c928f107ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Create Position']/parent::*</value>
-      <webElementGuid>ce89ae70-f167-4eaa-827f-4349cf8ce914</webElementGuid>
+      <webElementGuid>6c40ecaf-b9e1-4b28-a4b2-e54449495bcd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1/span</value>
-      <webElementGuid>99430597-5ebb-4816-9d0e-c94103b53ef1</webElementGuid>
+      <webElementGuid>368f5f1d-91e7-46e5-a65b-151706c51053</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[@title = 'Create Position' and (text() = 'Create Position' or . = 'Create Position')]</value>
-      <webElementGuid>0c8786b6-7b5d-4649-a0b3-9d556b91e7f6</webElementGuid>
+      <webElementGuid>571d6bbd-f222-4aa8-8e9e-c4b984413082</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
