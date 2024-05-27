@@ -33,5 +33,7 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Ma
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Make Appointment'))
 
+WebUI.takeFullPageScreenshotAsCheckpoint('8')
+
 WebUI.closeBrowser()
 

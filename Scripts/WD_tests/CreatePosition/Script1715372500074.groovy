@@ -44,12 +44,14 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Workday deloitteca
 
 WebUI.click(findTestObject('Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/button_Connexion'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787'), 
-    'create position')
+WebUI.click(findTestObject('Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787'))
 
-WebUI.waitForPageLoad(5)
+WebUI.setText(findTestObject('Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787'), 'create position')
 
 WebUI.click(findTestObject('Object Repository/Page_Home - Workday/span_Create'))
+
+WebUI.click(findTestObject('Object Repository/Page_Create Position - Workday/input_Supervisory Organization_569743--uid5-input'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Position - Workday/input_Supervisory Organization_569743--uid5-input'), 
     'supervisory organizations')
@@ -61,6 +63,8 @@ WebUI.click(findTestObject('Object Repository/Page_Create Position - Workday/div
 WebUI.click(findTestObject('Object Repository/Page_Create Position - Workday/span_OK'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Create Position - Workday/span_Create Position'), 'Create Position')
+
+WebUI.takeFullPageScreenshotAsCheckpoint('')
 
 WebUI.closeBrowser()
 

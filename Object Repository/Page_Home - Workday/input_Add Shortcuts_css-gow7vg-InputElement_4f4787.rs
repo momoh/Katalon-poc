@@ -7,11 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@value='c']</value>
+         <value>//div[@id='wd-searchInput']/input</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>input.css-gow7vg-InputElement.e13e7duy0</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'search']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e21b8142-06cc-44ca-87e8-ac633a187bde</webElementGuid>
+      <webElementGuid>829730b7-2fc9-4bca-ab48-5862a1826031</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-automation-id</name>
       <type>Main</type>
       <value>globalSearchInput</value>
-      <webElementGuid>26646e80-557b-4bda-babf-a70bb6c3c95a</webElementGuid>
+      <webElementGuid>1714349e-5487-423a-affd-813f4f98ead5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>type</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>67c56d72-2bb8-4c3d-b553-73b322381ad2</webElementGuid>
+      <webElementGuid>16d21913-938c-400b-8a6e-85dc456f007f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
-      <webElementGuid>d408abb5-b74e-4351-b469-2b21b9fd25cb</webElementGuid>
+      <webElementGuid>7adca7aa-5509-43af-a058-27fd1f1b21f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>role</name>
       <type>Main</type>
       <value>combobox</value>
-      <webElementGuid>903a0151-faf8-48f1-9d1b-4d9041070276</webElementGuid>
+      <webElementGuid>9f3b973f-6c48-4d07-974e-de1791c23490</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>aria-owns</name>
       <type>Main</type>
       <value>wd-global-search-results</value>
-      <webElementGuid>79ff4145-ffc6-4419-8363-b965e82987de</webElementGuid>
+      <webElementGuid>5a5d7a0a-b15a-47da-bb51-a76360a33cdb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>c693e6f7-aa20-4b74-bc63-234fbe9fa865</webElementGuid>
+      <webElementGuid>80af9d8c-25b2-4a8f-a6a9-fbac42389b57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>0317ca17-0fe1-4bfa-93d2-a70a85ee926b</webElementGuid>
+      <webElementGuid>77035d8d-4f15-495b-87d9-0e67d546e085</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Search Workday </value>
-      <webElementGuid>970a69aa-2f27-47ec-b0ca-9ba8d548e1e5</webElementGuid>
+      <webElementGuid>9f38b6b6-6174-48a7-b699-221006f5eeac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,15 +105,15 @@
       <name>class</name>
       <type>Main</type>
       <value>css-gow7vg-InputElement e13e7duy0</value>
-      <webElementGuid>1f3161e5-49d2-426f-96a8-a28be36f6c9b</webElementGuid>
+      <webElementGuid>91812021-7659-4d32-94f9-92d28ff9d64b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>c</value>
-      <webElementGuid>2bed6acf-08ca-43dd-a3e0-1420045545ed</webElementGuid>
+      <value>s</value>
+      <webElementGuid>4eee4e76-31e0-4d94-9f01-c799b21a771b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,15 +121,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;wd-searchInput&quot;)/input[@class=&quot;css-gow7vg-InputElement e13e7duy0&quot;]</value>
-      <webElementGuid>10a14d8d-d665-4cd6-b775-eda0f30d18a1</webElementGuid>
+      <webElementGuid>2a0aff9c-4621-474b-85c0-57fadc088d6f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='c']</value>
-      <webElementGuid>e5800611-2034-46d3-bccb-fe67f4308f1b</webElementGuid>
+      <value>//input[@value='s']</value>
+      <webElementGuid>df79d83c-42e2-4c73-bdcf-307000e41908</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='wd-searchInput']/input</value>
-      <webElementGuid>e764cbf0-1974-403d-9cc7-3bc895dc3f83</webElementGuid>
+      <webElementGuid>4383ff37-c0c8-4071-b583-d9cec1d20637</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>2b82ade0-26e4-4f2e-88d2-0d212d054683</webElementGuid>
+      <webElementGuid>3c251d51-55a6-4099-aada-8c6480d693c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +153,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'search']</value>
-      <webElementGuid>d1718afc-3ae0-4316-82ab-1469cca973e8</webElementGuid>
+      <webElementGuid>617c6c7f-4b23-4bcf-b082-54708d0c6c39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='c']</value>
+      <webElementGuid>69411cc7-4a20-4d84-8bb7-c7d2acfd7970</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

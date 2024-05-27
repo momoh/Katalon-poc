@@ -33,5 +33,7 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/div_L
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'))
 
+WebUI.takeFullPageScreenshotAsCheckpoint('t5')
+
 WebUI.closeBrowser()
 

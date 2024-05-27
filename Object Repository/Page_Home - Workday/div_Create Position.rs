@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>74d59118-502a-46b2-a17f-050565f66410</webElementGuid>
+      <webElementGuid>ec01d8c9-92b2-4f67-9374-695f121db7c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>dir</name>
       <type>Main</type>
       <value>ltr</value>
-      <webElementGuid>a01859b7-bb51-4865-af4e-195f7e8f8b75</webElementGuid>
+      <webElementGuid>602a3be8-62b2-4082-bdfd-7e1a695f5d41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>data-automation-id</name>
       <type>Main</type>
       <value>searchInputAutoCompleteResultFullText</value>
-      <webElementGuid>6a22d78f-1662-4de5-9cf1-6d3554cf8daf</webElementGuid>
+      <webElementGuid>bd7fe5d2-3834-4966-a61f-38f5e0301fe2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>css-1c47t1k-HeaderTextContainer e1d42mt04</value>
-      <webElementGuid>0d162c4b-928b-494d-bc7a-ab9f41efd1ad</webElementGuid>
+      <webElementGuid>ae7e4301-91b4-4e31-8077-29b501fdbd7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Create Position</value>
-      <webElementGuid>4c06e5d1-1a6a-41b4-b930-9d964bafc67d</webElementGuid>
+      <webElementGuid>fcea7f1f-7ce2-4b49-bf9c-c8d97a91bd2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;wd-autocomplete-result-0&quot;)/div[@class=&quot;css-1mmkhti-Container e1d42mt00&quot;]/div[@class=&quot;css-oi45gb-LabelContainer e1d42mt03&quot;]/div[@class=&quot;css-1c47t1k-HeaderTextContainer e1d42mt04&quot;]</value>
-      <webElementGuid>385abfe3-4e72-41b5-bab0-15882ef3acc7</webElementGuid>
+      <webElementGuid>d481f628-f60d-4e45-806d-91fcd4a6d596</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//li[@id='wd-autocomplete-result-0']/div/div[2]/div</value>
-      <webElementGuid>a1f26c7a-9b99-46b3-8b8c-235e187e3fc6</webElementGuid>
+      <webElementGuid>12455b7d-77af-4600-9e79-b272cdf7bf38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Shortcuts'])[1]/following::div[15]</value>
-      <webElementGuid>7ac4dab5-d731-4301-9d93-a1d0613c5cf2</webElementGuid>
+      <webElementGuid>0404b25c-792b-4e47-bd1e-dcb66e92ec26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Use Shortcuts to save reports, tasks, and external links here.'])[1]/following::div[16]</value>
-      <webElementGuid>62c76def-dff0-444c-8284-d91a5ad2b857</webElementGuid>
+      <webElementGuid>b1e88f15-800d-4f19-a311-90ce6867c902</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/div/div[2]/div</value>
-      <webElementGuid>a57683ae-682e-48cf-9cd8-709ea355fe29</webElementGuid>
+      <webElementGuid>364625b9-2137-4293-9efb-0ad7b8c384be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Create Position' or . = 'Create Position')]</value>
-      <webElementGuid>1d674031-d4d9-44e7-8597-652e48f15518</webElementGuid>
+      <webElementGuid>a7ecc7c9-91f3-4fd1-9f53-115ed96936b2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

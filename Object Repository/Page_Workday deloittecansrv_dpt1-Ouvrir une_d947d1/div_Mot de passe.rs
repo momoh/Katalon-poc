@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Mot de passe</name>
+   <tag></tag>
+   <elementGuidId>ac385057-88f4-4d12-9d85-f97aea93b13c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='container']/div/div/div[2]/div[2]/div/div/div/div/div[3]/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(2) > div.GDPVGE1BP2B</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Mot de passe$/ >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>51509065-7f51-4bf1-a9b9-ad5df57c7d53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>GDPVGE1BP2B</value>
+      <webElementGuid>cf53de31-7cbd-4888-af65-1301b918b280</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-automation-id</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>b25d6c7a-3d33-433d-a1c1-1f1837934c64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mot de passe</value>
+      <webElementGuid>fa2c29f8-9486-460d-95ec-bd2758e2c421</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;container&quot;)/div[@class=&quot;GDPVGE1BNXB GDPVGE1BF0B GDPVGE1BPXB&quot;]/div[@class=&quot;GDPVGE1BOXB&quot;]/div[@class=&quot;GDPVGE1BOYB&quot;]/div[@class=&quot;GDPVGE1BI-B&quot;]/div[1]/div[1]/div[@class=&quot;GDPVGE1BAUC&quot;]/div[1]/div[@class=&quot;GDPVGE1BBUC&quot;]/div[2]/div[@class=&quot;GDPVGE1BP2B&quot;]</value>
+      <webElementGuid>ae9365ae-7caa-44d3-99e4-a8073d48d971</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='container']/div/div/div[2]/div[2]/div/div/div/div/div[3]/div[2]/div</value>
+      <webElementGuid>5def04d9-5e78-448e-a8e9-bfd2c7e238a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login Page'])[1]/following::div[9]</value>
+      <webElementGuid>322ecb88-fc51-4e6f-9276-649c03da2f5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ouvrir une session'])[1]/preceding::div[2]</value>
+      <webElementGuid>50b8e67d-5ac2-49bf-b27e-8651727836c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div</value>
+      <webElementGuid>f266bfbd-905b-4231-840b-7f0ea5d15bb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Mot de passe' or . = 'Mot de passe')]</value>
+      <webElementGuid>2a27d356-653e-450c-a1aa-1c7a8078c066</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

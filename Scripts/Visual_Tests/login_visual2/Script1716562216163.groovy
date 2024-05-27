@@ -19,24 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld')
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a'), 
-    'momoussaoui-impl')
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B'), 
-    'ZnA8ZS7WWbLgAM3CRORbJA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.click(findTestObject('Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/button_Ouvrir une session'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787'), 
-    'create position')
-
-WebUI.click(findTestObject('Object Repository/Page_Home - Workday/div_Create Position'))
-
-WebUI.click(findTestObject('Object Repository/Page_Create Position - Workday/button_Cancel'))
-
-WebUI.closeBrowser()
+WebUI.takeFullPageScreenshotAsCheckpoint('login', [])
 
