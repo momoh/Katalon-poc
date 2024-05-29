@@ -1,0 +1,115 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WD,Windows - Edge Chromium 124,,,27-05-2024 16:42:10,27-05-2024 17:13:00,"30m - 50,825s",FAILED
+,,,,,,,
+Test Cases/WD_tests/TC029 Hire Employee,Windows - Edge Chromium 124,,,27-05-2024 16:42:10,27-05-2024 16:49:47,"7m - 37,395s",PASSED
+"openBrowser("""")",Windows - Edge Chromium 124,,,27-05-2024 16:42:10,27-05-2024 16:42:56,"45,487s",PASSED
+maximizeWindow(),Windows - Edge Chromium 124,,,27-05-2024 16:42:56,27-05-2024 16:42:56,"0,270s",PASSED
+"navigateToUrl(""https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld"")",Windows - Edge Chromium 124,,,27-05-2024 16:42:56,27-05-2024 16:42:57,"1,313s",PASSED
+"setText(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a""), ""momoussaoui-impl"")",Windows - Edge Chromium 124,,,27-05-2024 16:42:57,27-05-2024 16:43:00,"2,534s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B""), ""ZnA8ZS7WWbLgAM3CRORbJA=="")",Windows - Edge Chromium 124,,,27-05-2024 16:43:00,27-05-2024 16:43:01,"1,482s",PASSED
+"click(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/button_Ouvrir une session""))",Windows - Edge Chromium 124,,,27-05-2024 16:43:01,27-05-2024 16:43:02,"1,105s",PASSED
+"click(findTestObject(""Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787""))",Windows - Edge Chromium 124,,,27-05-2024 16:43:02,27-05-2024 16:43:08,"5,263s",PASSED
+"setText(findTestObject(""Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787""), ""start proxy"")",Windows - Edge Chromium 124,,,27-05-2024 16:43:08,27-05-2024 16:43:10,"2,649s",PASSED
+"click(findTestObject(""Object Repository/Page_Search Results - Saved Categories - Workday/div_Start Proxy""))",Windows - Edge Chromium 124,,,27-05-2024 16:43:10,27-05-2024 16:43:12,"1,685s",PASSED
+"click(findTestObject(""Page_Start Proxy - Workday/input_Act As_56279654--uid5-input""))",Windows - Edge Chromium 124,,,27-05-2024 16:43:12,27-05-2024 16:43:44,"32,382s",PASSED
+"setText(findTestObject(""Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input""), ""logan McNeil"")",Windows - Edge Chromium 124,,,27-05-2024 16:43:44,27-05-2024 16:44:50,"1m - 5,140s",PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input""), Keys.chord(ENTER))",Windows - Edge Chromium 124,,,27-05-2024 16:44:50,27-05-2024 16:45:22,"32,790s",PASSED
+"click(findTestObject(""Object Repository/Page_Start Proxy - Workday/span_OK""))",Windows - Edge Chromium 124,,,27-05-2024 16:45:22,27-05-2024 16:45:56,"33,234s",PASSED
+"click(findTestObject(""Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787""))",Windows - Edge Chromium 124,,,27-05-2024 16:45:56,27-05-2024 16:46:01,"5,151s",PASSED
+"setText(findTestObject(""Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787""), ""hire employee"")",Windows - Edge Chromium 124,,,27-05-2024 16:46:01,27-05-2024 16:46:04,"2,906s",PASSED
+"click(findTestObject(""Object Repository/Page_Home - Workday/div_Hire Employee""))",Windows - Edge Chromium 124,,,27-05-2024 16:46:04,27-05-2024 16:46:05,"1,714s",PASSED
+"click(findTestObject(""Object Repository/Page_Hire Employee - Workday/path_Country_wd-icon-fill""))",Windows - Edge Chromium 124,,,27-05-2024 16:46:05,27-05-2024 16:46:14,"9,004s",PASSED
+"setText(findTestObject(""Object Repository/Page_Hire Employee - Workday/input_Country_56594650--uid6-input""), ""canada"")",Windows - Edge Chromium 124,,,27-05-2024 16:46:14,27-05-2024 16:46:17,"2,255s",PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Hire Employee - Workday/input_Country_56594650--uid6-input""), Keys.chord(ENTER))",Windows - Edge Chromium 124,,,27-05-2024 16:46:17,27-05-2024 16:46:18,"1,112s",PASSED
+"setText(findTestObject(""Object Repository/Page_Hire Employee - Workday/input_First Name_56594643--uid56-input""), ""Bowen"")",Windows - Edge Chromium 124,,,27-05-2024 16:46:18,27-05-2024 16:47:23,"1m - 5,730s",PASSED
+"setText(findTestObject(""Object Repository/Page_Hire Employee - Workday/input_Last Name_56594643--uid58-input""), ""Yang"")",Windows - Edge Chromium 124,,,27-05-2024 16:47:23,27-05-2024 16:48:29,"1m - 5,436s",PASSED
+"click(findTestObject(""Object Repository/Page_Hire Employee - Workday/span_Search""))",Windows - Edge Chromium 124,,,27-05-2024 16:48:29,27-05-2024 16:49:02,"32,721s",PASSED
+"click(findTestObject(""Object Repository/Page_Hire Employee - Workday/button_Search_1""))",Windows - Edge Chromium 124,,,27-05-2024 16:49:02,27-05-2024 16:49:34,"32,552s",PASSED
+"takeFullPageScreenshotAsCheckpoint(""t3"", STOP_ON_FAILURE)",Windows - Edge Chromium 124,,,27-05-2024 16:49:34,27-05-2024 16:49:47,"13,016s",PASSED
+,,,,,,,
+Test Cases/WD_tests/TC002 Create Pre Hire,Windows - Edge Chromium 124,,,27-05-2024 16:49:47,27-05-2024 16:58:58,"9m - 10,671s",PASSED
+"openBrowser("""")",Windows - Edge Chromium 124,,,27-05-2024 16:49:47,27-05-2024 16:50:41,"53,881s",PASSED
+"navigateToUrl(""https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld"")",Windows - Edge Chromium 124,,,27-05-2024 16:50:41,27-05-2024 16:50:43,"1,448s",PASSED
+maximizeWindow(),Windows - Edge Chromium 124,,,27-05-2024 16:50:43,27-05-2024 16:50:43,"0,424s",PASSED
+"setText(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a""), ""momoussaoui-impl"")",Windows - Edge Chromium 124,,,27-05-2024 16:50:43,27-05-2024 16:50:46,"2,769s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B""), ""ZnA8ZS7WWbLgAM3CRORbJA=="")",Windows - Edge Chromium 124,,,27-05-2024 16:50:46,27-05-2024 16:50:47,"1,375s",PASSED
+"click(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/button_Ouvrir une session""))",Windows - Edge Chromium 124,,,27-05-2024 16:50:47,27-05-2024 16:50:48,"1,144s",PASSED
+"click(findTestObject(""Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787""))",Windows - Edge Chromium 124,,,27-05-2024 16:50:48,27-05-2024 16:50:54,"5,305s",PASSED
+"setText(findTestObject(""Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787""), ""Create Pre-Hire"")",Windows - Edge Chromium 124,,,27-05-2024 16:50:54,27-05-2024 16:50:56,"2,618s",PASSED
+"click(findTestObject(""Object Repository/Page_Home - Workday/div_Create Position""))",Windows - Edge Chromium 124,,,27-05-2024 16:50:56,27-05-2024 16:50:58,"1,798s",PASSED
+"click(findTestObject(""Object Repository/Page_Create Pre-Hire - Workday/svg_Country_wd-icon-x-small wd-icon""))",Windows - Edge Chromium 124,,,27-05-2024 16:50:58,27-05-2024 16:51:00,"2,401s",PASSED
+"setText(findTestObject(""Object Repository/Page_Create Pre-Hire - Workday/input_Country_56277733--uid11-input""), ""canada"")",Windows - Edge Chromium 124,,,27-05-2024 16:51:00,27-05-2024 16:52:05,"1m - 4,577s",PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Create Pre-Hire - Workday/input_Country_56277733--uid11-input""), Keys.chord(ENTER))",Windows - Edge Chromium 124,,,27-05-2024 16:52:05,27-05-2024 16:52:38,"32,812s",PASSED
+"setText(findTestObject(""Page_Create Pre-Hire - Workday/input_Prefix_56551055--uid21-input""), ""mr"")",Windows - Edge Chromium 124,,,27-05-2024 16:52:38,27-05-2024 16:53:44,"1m - 6,014s",PASSED
+"sendKeys(findTestObject(""Page_Create Pre-Hire - Workday/input_Prefix_56551055--uid21-input""), Keys.chord(ENTER))",Windows - Edge Chromium 124,,,27-05-2024 16:53:44,27-05-2024 16:54:17,"32,666s",PASSED
+"click(findTestObject(""Object Repository/Page_Create Pre-Hire - Workday/input_Miss_iqn86""))",Windows - Edge Chromium 124,,,27-05-2024 16:54:17,27-05-2024 16:54:49,"32,461s",PASSED
+"setText(findTestObject(""Page_Create Pre-Hire - Workday/input_First Name_56551056--uid22-input""), ""mmo"")",Windows - Edge Chromium 124,,,27-05-2024 16:54:49,27-05-2024 16:54:51,"2,429s",PASSED
+"setText(findTestObject(""Object Repository/Page_Create Pre-Hire - Workday/input_Last Name_56551056--uid24-input""), ""Fields"")",Windows - Edge Chromium 124,,,27-05-2024 16:54:51,27-05-2024 16:54:54,"2,271s",PASSED
+"click(findTestObject(""Object Repository/Page_Create Pre-Hire - Workday/div_Contact Information""))",Windows - Edge Chromium 124,,,27-05-2024 16:54:54,27-05-2024 16:55:26,"32,406s",PASSED
+"click(findTestObject(""Object Repository/Page_Create Pre-Hire - Workday/span_Add""))",Windows - Edge Chromium 124,,,27-05-2024 16:55:26,27-05-2024 16:55:27,"1,017s",PASSED
+"click(findTestObject(""Object Repository/Page_Create Pre-Hire - Workday/input_Phone Extension_56106324--uid27-input""))",Windows - Edge Chromium 124,,,27-05-2024 16:55:27,27-05-2024 16:56:00,"32,845s",PASSED
+"setText(findTestObject(""Object Repository/Page_Create Pre-Hire - Workday/input_Phone Number_56506134--uid26-input""), ""4389263007"")",Windows - Edge Chromium 124,,,27-05-2024 16:56:00,27-05-2024 16:57:05,"1m - 5,052s",PASSED
+"click(findTestObject(""Object Repository/Page_Create Pre-Hire - Workday/div_Phone Number_56506134""))",Windows - Edge Chromium 124,,,27-05-2024 16:57:05,27-05-2024 16:57:06,"1,189s",PASSED
+"click(findTestObject(""Object Repository/Page_Create Pre-Hire - Workday/svg_Mobile_wd-icon-caret-down-small wd-icon""))",Windows - Edge Chromium 124,,,27-05-2024 16:57:06,27-05-2024 16:57:07,"1,220s",PASSED
+"click(findTestObject(""Object Repository/Page_Create Pre-Hire - Workday/div_Landline""))",Windows - Edge Chromium 124,,,27-05-2024 16:57:07,27-05-2024 16:57:09,"1,231s",PASSED
+"click(findTestObject(""Object Repository/Page_Create Pre-Hire - Workday/input_Type_5631871--uid29-input""))",Windows - Edge Chromium 124,,,27-05-2024 16:57:09,27-05-2024 16:57:42,"32,945s",PASSED
+"click(findTestObject(""Object Repository/Page_Create Pre-Hire - Workday/input_Cancel_iqn8c""))",Windows - Edge Chromium 124,,,27-05-2024 16:57:42,27-05-2024 16:58:15,"32,933s",PASSED
+"click(findTestObject(""Object Repository/Page_Create Pre-Hire - Workday/span_OK""))",Windows - Edge Chromium 124,,,27-05-2024 16:58:15,27-05-2024 16:58:47,"32,450s",PASSED
+"takeFullPageScreenshotAsCheckpoint(""t1"")",Windows - Edge Chromium 124,,,27-05-2024 16:58:47,27-05-2024 16:58:58,"10,829s",PASSED
+,,,,,,,
+Test Cases/WD_tests/StartProxy,Windows - Edge Chromium 124,,,27-05-2024 16:58:58,27-05-2024 17:00:54,"1m - 55,963s",PASSED
+"openBrowser("""")",Windows - Edge Chromium 124,,,27-05-2024 16:58:58,27-05-2024 16:59:20,"21,865s",PASSED
+"navigateToUrl(""https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld"")",Windows - Edge Chromium 124,,,27-05-2024 16:59:20,27-05-2024 16:59:21,"1,517s",PASSED
+maximizeWindow(),Windows - Edge Chromium 124,,,27-05-2024 16:59:21,27-05-2024 16:59:22,"0,421s",PASSED
+"setText(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a""), ""momoussaoui-impl"")",Windows - Edge Chromium 124,,,27-05-2024 16:59:22,27-05-2024 16:59:24,"2,564s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B""), ""ZnA8ZS7WWbLgAM3CRORbJA=="")",Windows - Edge Chromium 124,,,27-05-2024 16:59:24,27-05-2024 16:59:26,"1,305s",PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B""), Keys.chord(ENTER))",Windows - Edge Chromium 124,,,27-05-2024 16:59:26,27-05-2024 16:59:27,"1,189s",PASSED
+"click(findTestObject(""Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787""))",Windows - Edge Chromium 124,,,27-05-2024 16:59:27,27-05-2024 16:59:32,"5,088s",PASSED
+"setText(findTestObject(""Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787""), ""start proxy"")",Windows - Edge Chromium 124,,,27-05-2024 16:59:32,27-05-2024 16:59:34,"2,349s",PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787""), Keys.chord(ENTER))",Windows - Edge Chromium 124,,,27-05-2024 16:59:34,27-05-2024 16:59:36,"1,988s",PASSED
+"click(findTestObject(""Object Repository/Page_Search Results - Saved Categories - Workday/a_Start Proxy""))",Windows - Edge Chromium 124,,,27-05-2024 16:59:36,27-05-2024 17:00:09,"33,084s",PASSED
+"click(findTestObject(""Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input""))",Windows - Edge Chromium 124,,,27-05-2024 17:00:09,27-05-2024 17:00:11,"1,791s",PASSED
+"setText(findTestObject(""Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input""), ""logan Mcneil"")",Windows - Edge Chromium 124,,,27-05-2024 17:00:11,27-05-2024 17:00:14,"2,744s",PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input""), Keys.chord(ENTER))",Windows - Edge Chromium 124,,,27-05-2024 17:00:14,27-05-2024 17:00:15,"1,276s",PASSED
+"click(findTestObject(""Object Repository/Page_Start Proxy - Workday/span_OK""))",Windows - Edge Chromium 124,,,27-05-2024 17:00:15,27-05-2024 17:00:48,"32,946s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Home - Workday/span_On behalf of Logan McNeil""), ""On behalf of: Logan McNeil"")",Windows - Edge Chromium 124,,,27-05-2024 17:00:48,27-05-2024 17:00:53,"4,802s",PASSED
+closeBrowser(),Windows - Edge Chromium 124,,,27-05-2024 17:00:53,27-05-2024 17:00:54,"0,792s",PASSED
+,,,,,,,
+Test Cases/WD_tests/PersonalInformationChange,Windows - Edge Chromium 124,,,27-05-2024 17:00:54,27-05-2024 17:00:54,"0,063s",PASSED
+return null,Windows - Edge Chromium 124,,,27-05-2024 17:00:54,27-05-2024 17:00:54,"0,001s",PASSED
+,,,,,,,
+Test Cases/WD_tests/CreatePosition,Windows - Edge Chromium 124,,,27-05-2024 17:09:03,27-05-2024 17:11:36,"2m - 32,888s",FAILED
+"openBrowser("""")",Windows - Edge Chromium 124,,,27-05-2024 17:09:03,27-05-2024 17:09:24,"20,826s",PASSED
+"navigateToUrl(""https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld"")",Windows - Edge Chromium 124,,,27-05-2024 17:09:24,27-05-2024 17:09:25,"1,398s",PASSED
+maximizeWindow(),Windows - Edge Chromium 124,,,27-05-2024 17:09:25,27-05-2024 17:09:26,"0,385s",PASSED
+"setText(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a""), ""z"")",Windows - Edge Chromium 124,,,27-05-2024 17:09:26,27-05-2024 17:09:28,"2,415s",PASSED
+"click(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/div_Login PageNom dutilisateurMot de passeC_39fc6f""))",Windows - Edge Chromium 124,,,27-05-2024 17:09:28,27-05-2024 17:09:29,"1,100s",PASSED
+"setText(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a""), ""momousaoui-impl"")",Windows - Edge Chromium 124,,,27-05-2024 17:09:29,27-05-2024 17:09:31,"2,293s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B""), ""ZnA8ZS7WWbLgAM3CRORbJA=="")",Windows - Edge Chromium 124,,,27-05-2024 17:09:31,27-05-2024 17:09:33,"1,258s",PASSED
+"click(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/button_Connexion""))",Windows - Edge Chromium 124,,,27-05-2024 17:09:33,27-05-2024 17:09:34,"1,045s",PASSED
+"setText(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a""), ""momoussaoui-impl"")",Windows - Edge Chromium 124,,,27-05-2024 17:09:34,27-05-2024 17:09:36,"2,556s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B""), ""ZnA8ZS7WWbLgAM3CRORbJA=="")",Windows - Edge Chromium 124,,,27-05-2024 17:09:36,27-05-2024 17:09:38,"1,467s",PASSED
+"click(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/button_Connexion""))",Windows - Edge Chromium 124,,,27-05-2024 17:09:38,27-05-2024 17:09:39,"1,155s",PASSED
+"click(findTestObject(""Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787""))",Windows - Edge Chromium 124,,,27-05-2024 17:09:39,27-05-2024 17:09:44,"5,252s",PASSED
+"setText(findTestObject(""Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787""), ""create position"")",Windows - Edge Chromium 124,,,27-05-2024 17:09:44,27-05-2024 17:09:47,"2,653s",PASSED
+"click(findTestObject(""Object Repository/Page_Home - Workday/span_Create""))",Windows - Edge Chromium 124,,,27-05-2024 17:09:47,27-05-2024 17:09:49,"1,746s",PASSED
+"click(findTestObject(""Object Repository/Page_Create Position - Workday/input_Supervisory Organization_569743--uid5-input""), STOP_ON_FAILURE)",Windows - Edge Chromium 124,,,27-05-2024 17:09:49,27-05-2024 17:09:51,"2,743s",PASSED
+"setText(findTestObject(""Object Repository/Page_Create Position - Workday/input_Supervisory Organization_569743--uid5-input""), ""supervisory organizations"")",Windows - Edge Chromium 124,,,27-05-2024 17:09:51,27-05-2024 17:09:54,"2,536s",PASSED
+"click(findTestObject(""Object Repository/Page_Create Position - Workday/div_Supervisory Organizations""))",Windows - Edge Chromium 124,,,27-05-2024 17:09:54,27-05-2024 17:10:27,"32,990s",PASSED
+"click(findTestObject(""Object Repository/Page_Create Position - Workday/div_100 AR Info""))",Windows - Edge Chromium 124,,,27-05-2024 17:10:27,27-05-2024 17:10:59,"32,333s",PASSED
+"click(findTestObject(""Object Repository/Page_Create Position - Workday/span_OK""))",Windows - Edge Chromium 124,,,27-05-2024 17:10:59,27-05-2024 17:11:32,"32,371s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Create Position - Workday/span_Create Position""), ""Create Position"")",Windows - Edge Chromium 124,,,27-05-2024 17:11:32,27-05-2024 17:11:36,"4,348s",FAILED
+,,,,,,,
+Test Cases/WD_tests/Create1,Windows - Edge Chromium 124,,,27-05-2024 17:11:36,27-05-2024 17:13:00,"1m - 24,486s",PASSED
+"openBrowser("""")",Windows - Edge Chromium 124,,,27-05-2024 17:11:36,27-05-2024 17:11:59,"22,991s",PASSED
+"navigateToUrl(""https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld"")",Windows - Edge Chromium 124,,,27-05-2024 17:11:59,27-05-2024 17:12:00,"1,368s",PASSED
+maximizeWindow(),Windows - Edge Chromium 124,,,27-05-2024 17:12:00,27-05-2024 17:12:01,"0,413s",PASSED
+"setText(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a""), ""momoussaoui-impl"")",Windows - Edge Chromium 124,,,27-05-2024 17:12:01,27-05-2024 17:12:03,"2,555s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B""), ""ZnA8ZS7WWbLgAM3CRORbJA=="")",Windows - Edge Chromium 124,,,27-05-2024 17:12:03,27-05-2024 17:12:05,"1,414s",PASSED
+"click(findTestObject(""Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/button_Ouvrir une session""))",Windows - Edge Chromium 124,,,27-05-2024 17:12:05,27-05-2024 17:12:06,"1,114s",PASSED
+"click(findTestObject(""Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787""))",Windows - Edge Chromium 124,,,27-05-2024 17:12:06,27-05-2024 17:12:11,"5,432s",PASSED
+"setText(findTestObject(""Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787""), ""create position"")",Windows - Edge Chromium 124,,,27-05-2024 17:12:11,27-05-2024 17:12:14,"2,500s",PASSED
+"click(findTestObject(""Object Repository/Page_Home - Workday/div_Create Position""))",Windows - Edge Chromium 124,,,27-05-2024 17:12:14,27-05-2024 17:12:15,"1,683s",PASSED
+"takeFullPageScreenshotAsCheckpoint(""3"")",Windows - Edge Chromium 124,,,27-05-2024 17:12:15,27-05-2024 17:12:27,"11,526s",PASSED
+"click(findTestObject(""Object Repository/Page_Create Position - Workday/button_Cancel""))",Windows - Edge Chromium 124,,,27-05-2024 17:12:27,27-05-2024 17:13:00,"32,711s",PASSED
+closeBrowser(),Windows - Edge Chromium 124,,,27-05-2024 17:13:00,27-05-2024 17:13:00,"0,706s",PASSED

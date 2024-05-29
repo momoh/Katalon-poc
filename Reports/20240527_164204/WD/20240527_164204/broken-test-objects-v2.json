@@ -1,0 +1,214 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input",
+      "brokenLocator": "//*[@id\u003d\"56$279654--uid5-input\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li/div[2]/div/div/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Start Proxy - Workday/span_OK",
+      "brokenLocator": "//button[@id\u003d\u0027fe76ee4f8f1e46848bb379ce3c122743\u0027]/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Act As\u0027])[1]/following::span[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Start Proxy - Workday/span_OK_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Hire Employee - Workday/path_Country_wd-icon-fill",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "span.e1vboyyf0.css-1xkya3h-StyledBoxElement.eizlapt0 \u003e svg.wd-icon-x-small.wd-icon \u003e g.wd-icon-container \u003e path.wd-icon-fill",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Hire Employee - Workday/path_Country_wd-icon-fill_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Hire Employee - Workday/input_First Name_56594643--uid56-input",
+      "brokenLocator": "//input[@id\u003d\u002756$594643--uid56-input\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Hire Employee - Workday/input_First Name_56594643--uid56-input_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Hire Employee - Workday/input_Last Name_56594643--uid58-input",
+      "brokenLocator": "//input[@id\u003d\u002756$594643--uid58-input\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[3]/div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Hire Employee - Workday/input_Last Name_56594643--uid58-input_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Hire Employee - Workday/span_Search",
+      "brokenLocator": "//button[@id\u003d\u002739658e501711414e912c7e66dc61a78b\u0027]/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ID Type\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Hire Employee - Workday/span_Search_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Hire Employee - Workday/button_Search_1",
+      "brokenLocator": "//button[@id\u003d\u00275a95b4194565415eb4a2419c00bc1401\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ID Type\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Hire Employee - Workday/button_Search_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Pre-Hire - Workday/input_Country_56277733--uid11-input",
+      "brokenLocator": "//input[@id\u003d\u002756$277733--uid11-input\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div[2]/div/div/div/div/ul/li/div[2]/div/div/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Create Pre-Hire - Workday/input_Country_56277733--uid11-input_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Pre-Hire - Workday/input_Prefix_56551055--uid21-input",
+      "brokenLocator": "//input[@id\u003d\u002756$551055--uid21-input\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div/div/div[2]/div/div/ul/li/div[2]/div/div/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Create Pre-Hire - Workday/input_Prefix_56551055--uid21-input_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Pre-Hire - Workday/input_Miss_iqn86",
+      "brokenLocator": "//input[@id\u003d\u0027iqn86\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027menuItem-1695$908\u0027]/div/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Create Pre-Hire - Workday/input_Miss_iqn86_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Pre-Hire - Workday/div_Contact Information",
+      "brokenLocator": "//li[@id\u003d\u0027tab_c5dfd3e6-64dc-47cc-9f94-f30320f64fc6\u0027]/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Legal Name Information\u0027])[1]/following::div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Create Pre-Hire - Workday/div_Contact Information_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Pre-Hire - Workday/input_Phone Extension_56106324--uid27-input",
+      "brokenLocator": "//input[@id\u003d\u002756$106324--uid27-input\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div/ul/li[3]/div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Create Pre-Hire - Workday/input_Phone Extension_56106324--uid27-input_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Pre-Hire - Workday/input_Phone Number_56506134--uid26-input",
+      "brokenLocator": "//input[@id\u003d\u002756$506134--uid26-input\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div/ul/li[2]/div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Create Pre-Hire - Workday/input_Phone Number_56506134--uid26-input_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Pre-Hire - Workday/input_Type_5631871--uid29-input",
+      "brokenLocator": "//input[@id\u003d\u002756$31871--uid29-input\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[5]/div[2]/div/div/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Create Pre-Hire - Workday/input_Type_5631871--uid29-input_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Pre-Hire - Workday/input_Cancel_iqn8c",
+      "brokenLocator": "//input[@id\u003d\u0027iqn8c\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027menuItem-1578$3\u0027]/div/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Create Pre-Hire - Workday/input_Cancel_iqn8c_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Pre-Hire - Workday/span_OK",
+      "brokenLocator": "//button[@id\u003d\u0027daec1b008f6942cc952c36c0689beefd\u0027]/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Contact Information\u0027])[2]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Create Pre-Hire - Workday/span_OK_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Search Results - Saved Categories - Workday/a_Start Proxy",
+      "brokenLocator": "//div[@id\u003d\u0027d5bdebed089b46ab814cf25830097a29\u0027]/div/div/div/div/div/ol/li/div/ol/li/div/div/div/h3/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Start Proxy\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Search Results - Saved Categories - Workday/a_Start Proxy_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Position - Workday/div_Supervisory Organizations",
+      "brokenLocator": "//div[@id\u003d\u0027promptOption-55cdcfba-3e5f-43a5-b0a5-8faa0c5ec4f5\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027menuItem-45$2764\u0027]/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Create Position - Workday/div_Supervisory Organizations_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Position - Workday/div_100 AR Info",
+      "brokenLocator": "//div[@id\u003d\u0027promptOption-c6596eef-9da4-4e78-adb6-21e2fdfa36de\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027menuItem-2500$380\u0027]/div/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Create Position - Workday/div_100 AR Info_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Position - Workday/span_OK",
+      "brokenLocator": "//button[@id\u003d\u0027c0553ba8f9db4b16910d1851fa614f6e\u0027]/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Create Position - Workday/span_OK_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Position - Workday/button_Cancel",
+      "brokenLocator": "//button[@id\u003d\u0027336b6c26eb5c4a25967a7a8847710f54\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Supervisory Organization\u0027])[1]/following::button[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_164204/WD/20240527_164204/Object Repository/Page_Create Position - Workday/button_Cancel_neighbor.png"
+    }
+  ]
+}

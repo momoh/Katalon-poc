@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WD" time="1767.244" tests="6" failures="1" errors="0">
+   <testsuite name="WD" tests="6" failures="1" errors="0" time="1767.244" skipped="0" timestamp="27-05-2024T16:39:52" hostname="momoussaoui - CAW2204108.ca.deloitte.com" id="Test Suites/WD">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\momoussaoui@deloitte.ca\\git\\Katalon-poc\\Reports\\20240527_163947\\WD\\20240527_163947"/>
+         <property name="logFiles" value="C:\\Users\\momoussaoui@deloitte.ca\\git\\Katalon-poc\\Reports\\20240527_163947\\WD\\20240527_163947\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-t3.png, C:\\Users\\momoussaoui@deloitte.ca\\git\\Katalon-poc\\Reports\\20240527_163947\\WD\\20240527_163947\\1716843071508.png, keyes\keyes-t1.png, C:\\Users\\momoussaoui@deloitte.ca\\git\\Katalon-poc\\Reports\\20240527_163947\\WD\\20240527_163947\\1716843548064.png, C:\\Users\\momoussaoui@deloitte.ca\\git\\Katalon-poc\\Reports\\20240527_163947\\WD\\20240527_163947\\1716843754066.png, C:\\Users\\momoussaoui@deloitte.ca\\git\\Katalon-poc\\Reports\\20240527_163947\\WD\\20240527_163947\\1716843754241.png, C:\\Users\\momoussaoui@deloitte.ca\\git\\Katalon-poc\\Reports\\20240527_163947\\WD\\20240527_163947\\1716843876956.png, C:\\Users\\momoussaoui@deloitte.ca\\git\\Katalon-poc\\Reports\\20240527_163947\\WD\\20240527_163947\\1716843877133.png, C:\\Users\\momoussaoui@deloitte.ca\\git\\Katalon-poc\\Reports\\20240527_163947\\WD\\20240527_163947\\1716843994668.png, C:\\Users\\momoussaoui@deloitte.ca\\git\\Katalon-poc\\Reports\\20240527_163947\\WD\\20240527_163947\\1716843994831.png, C:\\Users\\momoussaoui@deloitte.ca\\git\\Katalon-poc\\Reports\\20240527_163947\\WD\\20240527_163947\\1716844111473.png, C:\\Users\\momoussaoui@deloitte.ca\\git\\Katalon-poc\\Reports\\20240527_163947\\WD\\20240527_163947\\1716844111626.png, keyes\keyes-3.png"/>
+         <property name="hostName" value="momoussaoui - CAW2204108.ca.deloitte.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 124"/>
+         <property name="hostAddress" value="10.0.0.214"/>
+         <property name="sessionId" value="6fbf5554ca41b9e30c246b41f5625247"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WD_tests/TC029 Hire Employee" time="375.812" classname="Test Cases/WD_tests/TC029 Hire Employee" status="PASSED">
+         <system-out><![CDATA[27-05-2024T16:39:52 - [TEST_CASE][PASSED] - Test Cases/WD_tests/TC029 Hire Employee: Test Cases/WD_tests/TC029 Hire Employee
+
+27-05-2024T16:39:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-05-2024T16:39:53 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+27-05-2024T16:39:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-05-2024T16:39:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-05-2024T16:39:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-05-2024T16:39:58 - [MESSAGE][PASSED] - Current window maximized
+
+27-05-2024T16:39:58 - [TEST_STEP][PASSED] - navigateToUrl("https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld"): Navigate to 'https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld' successfully
+
+27-05-2024T16:39:59 - [MESSAGE][PASSED] - Navigate to 'https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld' successfully
+
+27-05-2024T16:39:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a"), "momoussaoui-impl"): Text 'momoussaoui-impl' is set on object 'Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a'
+
+27-05-2024T16:40:01 - [MESSAGE][PASSED] - Text 'momoussaoui-impl' is set on object 'Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a'
+
+27-05-2024T16:40:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B"), "ZnA8ZS7WWbLgAM3CRORbJA=="): Text ****** has been set on object 'Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B'
+
+27-05-2024T16:40:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B'
+
+27-05-2024T16:40:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/button_Ouvrir une session")): Object: 'Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/button_Ouvrir une session' is clicked on
+
+27-05-2024T16:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/button_Ouvrir une session' is clicked on
+
+27-05-2024T16:40:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787")): Object: 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787' is clicked on
+
+27-05-2024T16:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787' is clicked on
+
+27-05-2024T16:40:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787"), "start proxy"): Text 'start proxy' is set on object 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787'
+
+27-05-2024T16:40:07 - [MESSAGE][PASSED] - Text 'start proxy' is set on object 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787'
+
+27-05-2024T16:40:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Search Results - Saved Categories - Workday/div_Start Proxy")): Object: 'Object Repository/Page_Search Results - Saved Categories - Workday/div_Start Proxy' is clicked on
+
+27-05-2024T16:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search Results - Saved Categories - Workday/div_Start Proxy' is clicked on
+
+27-05-2024T16:40:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Start Proxy - Workday/input_Act As_56279654--uid5-input")): Object: 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input' is clicked on
+
+27-05-2024T16:40:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="56$279654--uid5-input"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:40:40 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input'. Try using Self-healing.
+
+27-05-2024T16:40:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input' was broken. Propose an alternative one: '//li/div[2]/div/div/div/div/div/div/input'.
+
+27-05-2024T16:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input' is clicked on
+
+27-05-2024T16:40:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input"), "logan McNeil"): Text 'logan McNeil' is set on object 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input'
+
+27-05-2024T16:41:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="56$279654--uid5-input"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:41:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input'. Try using Self-healing.
+
+27-05-2024T16:41:11 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input' was broken. Propose an alternative one: '//li/div[2]/div/div/div/div/div/div/input'.
+
+27-05-2024T16:41:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="56$279654--uid5-input"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:41:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input'. Try using Self-healing.
+
+27-05-2024T16:41:43 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input' was broken. Propose an alternative one: '//li/div[2]/div/div/div/div/div/div/input'.
+
+27-05-2024T16:41:43 - [MESSAGE][PASSED] - Text 'logan McNeil' is set on object 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input'
+
+27-05-2024T16:41:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input'
+
+27-05-2024T16:42:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="56$279654--uid5-input"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:42:14 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input'. Try using Self-healing.
+
+27-05-2024T16:42:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input' was broken. Propose an alternative one: '//li/div[2]/div/div/div/div/div/div/input'.
+
+27-05-2024T16:42:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input'
+
+27-05-2024T16:42:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Start Proxy - Workday/span_OK")): Object: 'Object Repository/Page_Start Proxy - Workday/span_OK' is clicked on
+
+27-05-2024T16:42:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='fe76ee4f8f1e46848bb379ce3c122743']/span[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:42:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Start Proxy - Workday/span_OK'. Try using Self-healing.
+
+27-05-2024T16:42:46 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Start Proxy - Workday/span_OK' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Act As'])[1]/following::span[5]'.
+
+27-05-2024T16:42:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Start Proxy - Workday/span_OK' is clicked on
+
+27-05-2024T16:42:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787")): Object: 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787' is clicked on
+
+27-05-2024T16:42:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787' is clicked on
+
+27-05-2024T16:42:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787"), "hire employee"): Text 'hire employee' is set on object 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787'
+
+27-05-2024T16:42:51 - [MESSAGE][PASSED] - Text 'hire employee' is set on object 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787'
+
+27-05-2024T16:42:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home - Workday/div_Hire Employee")): Object: 'Object Repository/Page_Home - Workday/div_Hire Employee' is clicked on
+
+27-05-2024T16:42:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Workday/div_Hire Employee' is clicked on
+
+27-05-2024T16:42:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Hire Employee - Workday/path_Country_wd-icon-fill")): Object: 'Object Repository/Page_Hire Employee - Workday/path_Country_wd-icon-fill' is clicked on
+
+27-05-2024T16:42:54 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Hire Employee - Workday/path_Country_wd-icon-fill'. Try using Self-healing.
+
+27-05-2024T16:42:56 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+27-05-2024T16:42:56 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/momoussaoui@deloitte.ca/git/Katalon-poc/Reports/Self-healing/Object Repository/Page_Hire Employee - Workday/path_Country_wd-icon-fill_SMART_LOCATOR.png
+
+27-05-2024T16:42:56 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Hire Employee - Workday/path_Country_wd-icon-fill' was broken. Propose an alternative one: 'internal:label="items selected for Country"s >> span path'.
+
+27-05-2024T16:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Hire Employee - Workday/path_Country_wd-icon-fill' is clicked on
+
+27-05-2024T16:42:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Hire Employee - Workday/input_Country_56594650--uid6-input"), "canada"): Text 'canada' is set on object 'Object Repository/Page_Hire Employee - Workday/input_Country_56594650--uid6-input'
+
+27-05-2024T16:42:57 - [MESSAGE][PASSED] - Text 'canada' is set on object 'Object Repository/Page_Hire Employee - Workday/input_Country_56594650--uid6-input'
+
+27-05-2024T16:42:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Hire Employee - Workday/input_Country_56594650--uid6-input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Hire Employee - Workday/input_Country_56594650--uid6-input'
+
+27-05-2024T16:42:58 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Hire Employee - Workday/input_Country_56594650--uid6-input'
+
+27-05-2024T16:42:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Hire Employee - Workday/input_First Name_56594643--uid56-input"), "Bowen"): Text 'Bowen' is set on object 'Object Repository/Page_Hire Employee - Workday/input_First Name_56594643--uid56-input'
+
+27-05-2024T16:43:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='56$594643--uid56-input']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:43:29 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Hire Employee - Workday/input_First Name_56594643--uid56-input'. Try using Self-healing.
+
+27-05-2024T16:43:29 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Hire Employee - Workday/input_First Name_56594643--uid56-input' was broken. Propose an alternative one: '//div[2]/div/div/input'.
+
+27-05-2024T16:44:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='56$594643--uid56-input']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:44:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Hire Employee - Workday/input_First Name_56594643--uid56-input'. Try using Self-healing.
+
+27-05-2024T16:44:01 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Hire Employee - Workday/input_First Name_56594643--uid56-input' was broken. Propose an alternative one: '//div[2]/div/div/input'.
+
+27-05-2024T16:44:01 - [MESSAGE][PASSED] - Text 'Bowen' is set on object 'Object Repository/Page_Hire Employee - Workday/input_First Name_56594643--uid56-input'
+
+27-05-2024T16:44:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Hire Employee - Workday/input_Last Name_56594643--uid58-input"), "Yang"): Text 'Yang' is set on object 'Object Repository/Page_Hire Employee - Workday/input_Last Name_56594643--uid58-input'
+
+27-05-2024T16:44:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='56$594643--uid58-input']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:44:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Hire Employee - Workday/input_Last Name_56594643--uid58-input'. Try using Self-healing.
+
+27-05-2024T16:44:32 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Hire Employee - Workday/input_Last Name_56594643--uid58-input' was broken. Propose an alternative one: '//li[3]/div[2]/div/div/input'.
+
+27-05-2024T16:45:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='56$594643--uid58-input']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:45:03 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Hire Employee - Workday/input_Last Name_56594643--uid58-input'. Try using Self-healing.
+
+27-05-2024T16:45:04 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Hire Employee - Workday/input_Last Name_56594643--uid58-input' was broken. Propose an alternative one: '//li[3]/div[2]/div/div/input'.
+
+27-05-2024T16:45:04 - [MESSAGE][PASSED] - Text 'Yang' is set on object 'Object Repository/Page_Hire Employee - Workday/input_Last Name_56594643--uid58-input'
+
+27-05-2024T16:45:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Hire Employee - Workday/span_Search")): Object: 'Object Repository/Page_Hire Employee - Workday/span_Search' is clicked on
+
+27-05-2024T16:45:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='39658e501711414e912c7e66dc61a78b']/span[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:45:35 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Hire Employee - Workday/span_Search'. Try using Self-healing.
+
+27-05-2024T16:45:35 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Hire Employee - Workday/span_Search' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ID Type'])[1]/following::span[3]'.
+
+27-05-2024T16:45:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Hire Employee - Workday/span_Search' is clicked on
+
+27-05-2024T16:45:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Hire Employee - Workday/button_Search_1")): Object: 'Object Repository/Page_Hire Employee - Workday/button_Search_1' is clicked on
+
+27-05-2024T16:46:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='5a95b4194565415eb4a2419c00bc1401']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:46:06 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Hire Employee - Workday/button_Search_1'. Try using Self-healing.
+
+27-05-2024T16:46:06 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Hire Employee - Workday/button_Search_1' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ID Type'])[1]/following::button[1]'.
+
+27-05-2024T16:46:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Hire Employee - Workday/button_Search_1' is clicked on
+
+27-05-2024T16:46:07 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("t3", STOP_ON_FAILURE): Taking screenshot successfully
+
+27-05-2024T16:46:08 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T16:46:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-t3.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WD_tests/TC002 Create Pre Hire" time="462.366" classname="Test Cases/WD_tests/TC002 Create Pre Hire" status="PASSED">
+         <system-out><![CDATA[27-05-2024T16:51:11 - [TEST_CASE][PASSED] - Test Cases/WD_tests/TC002 Create Pre Hire: Test Cases/WD_tests/TC002 Create Pre Hire
+
+27-05-2024T16:51:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-05-2024T16:51:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+27-05-2024T16:51:12 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+27-05-2024T16:51:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-05-2024T16:51:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-05-2024T16:51:15 - [TEST_STEP][PASSED] - navigateToUrl("https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld"): Navigate to 'https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld' successfully
+
+27-05-2024T16:51:17 - [MESSAGE][PASSED] - Navigate to 'https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld' successfully
+
+27-05-2024T16:51:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-05-2024T16:51:17 - [MESSAGE][PASSED] - Current window maximized
+
+27-05-2024T16:51:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a"), "momoussaoui-impl"): Text 'momoussaoui-impl' is set on object 'Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a'
+
+27-05-2024T16:51:18 - [MESSAGE][PASSED] - Text 'momoussaoui-impl' is set on object 'Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a'
+
+27-05-2024T16:51:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B"), "ZnA8ZS7WWbLgAM3CRORbJA=="): Text ****** has been set on object 'Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B'
+
+27-05-2024T16:51:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B'
+
+27-05-2024T16:51:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/button_Ouvrir une session")): Object: 'Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/button_Ouvrir une session' is clicked on
+
+27-05-2024T16:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/button_Ouvrir une session' is clicked on
+
+27-05-2024T16:51:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787")): Object: 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787' is clicked on
+
+27-05-2024T16:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787' is clicked on
+
+27-05-2024T16:51:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787"), "Create Pre-Hire"): Text 'Create Pre-Hire' is set on object 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787'
+
+27-05-2024T16:51:24 - [MESSAGE][PASSED] - Text 'Create Pre-Hire' is set on object 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787'
+
+27-05-2024T16:51:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home - Workday/div_Create Position")): Object: 'Object Repository/Page_Home - Workday/div_Create Position' is clicked on
+
+27-05-2024T16:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Workday/div_Create Position' is clicked on
+
+27-05-2024T16:51:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Pre-Hire - Workday/svg_Country_wd-icon-x-small wd-icon")): Object: 'Object Repository/Page_Create Pre-Hire - Workday/svg_Country_wd-icon-x-small wd-icon' is clicked on
+
+27-05-2024T16:51:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Pre-Hire - Workday/svg_Country_wd-icon-x-small wd-icon' is clicked on
+
+27-05-2024T16:51:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Pre-Hire - Workday/input_Country_56277733--uid11-input"), "canada"): Text 'canada' is set on object 'Object Repository/Page_Create Pre-Hire - Workday/input_Country_56277733--uid11-input'
+
+27-05-2024T16:51:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='56$277733--uid11-input']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:51:58 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Pre-Hire - Workday/input_Country_56277733--uid11-input'. Try using Self-healing.
+
+27-05-2024T16:51:59 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Pre-Hire - Workday/input_Country_56277733--uid11-input' was broken. Propose an alternative one: '//div[2]/div/div[2]/div/div/div/div/ul/li/div[2]/div/div/div/div/div/div/input'.
+
+27-05-2024T16:52:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='56$277733--uid11-input']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:52:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Pre-Hire - Workday/input_Country_56277733--uid11-input'. Try using Self-healing.
+
+27-05-2024T16:52:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Pre-Hire - Workday/input_Country_56277733--uid11-input' was broken. Propose an alternative one: '//div[2]/div/div[2]/div/div/div/div/ul/li/div[2]/div/div/div/div/div/div/input'.
+
+27-05-2024T16:52:30 - [MESSAGE][PASSED] - Text 'canada' is set on object 'Object Repository/Page_Create Pre-Hire - Workday/input_Country_56277733--uid11-input'
+
+27-05-2024T16:52:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Create Pre-Hire - Workday/input_Country_56277733--uid11-input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Create Pre-Hire - Workday/input_Country_56277733--uid11-input'
+
+27-05-2024T16:53:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='56$277733--uid11-input']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:53:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Pre-Hire - Workday/input_Country_56277733--uid11-input'. Try using Self-healing.
+
+27-05-2024T16:53:02 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Pre-Hire - Workday/input_Country_56277733--uid11-input' was broken. Propose an alternative one: '//div[2]/div/div[2]/div/div/div/div/ul/li/div[2]/div/div/div/div/div/div/input'.
+
+27-05-2024T16:53:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Create Pre-Hire - Workday/input_Country_56277733--uid11-input'
+
+27-05-2024T16:53:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Pre-Hire - Workday/input_Prefix_56551055--uid21-input"), "mr"): Text 'mr' is set on object 'Object Repository/Page_Create Pre-Hire - Workday/input_Prefix_56551055--uid21-input'
+
+27-05-2024T16:53:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='56$551055--uid21-input']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:53:33 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Pre-Hire - Workday/input_Prefix_56551055--uid21-input'. Try using Self-healing.
+
+27-05-2024T16:53:33 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Pre-Hire - Workday/input_Prefix_56551055--uid21-input' was broken. Propose an alternative one: '//div[2]/div/div/div/div/div[2]/div/div/ul/li/div[2]/div/div/div/div/div/div/input'.
+
+27-05-2024T16:54:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='56$551055--uid21-input']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:54:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Pre-Hire - Workday/input_Prefix_56551055--uid21-input'. Try using Self-healing.
+
+27-05-2024T16:54:05 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Pre-Hire - Workday/input_Prefix_56551055--uid21-input' was broken. Propose an alternative one: '//div[2]/div/div/div/div/div[2]/div/div/ul/li/div[2]/div/div/div/div/div/div/input'.
+
+27-05-2024T16:54:05 - [MESSAGE][PASSED] - Text 'mr' is set on object 'Object Repository/Page_Create Pre-Hire - Workday/input_Prefix_56551055--uid21-input'
+
+27-05-2024T16:54:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Create Pre-Hire - Workday/input_Prefix_56551055--uid21-input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Create Pre-Hire - Workday/input_Prefix_56551055--uid21-input'
+
+27-05-2024T16:54:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='56$551055--uid21-input']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:54:36 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Pre-Hire - Workday/input_Prefix_56551055--uid21-input'. Try using Self-healing.
+
+27-05-2024T16:54:36 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Pre-Hire - Workday/input_Prefix_56551055--uid21-input' was broken. Propose an alternative one: '//div[2]/div/div/div/div/div[2]/div/div/ul/li/div[2]/div/div/div/div/div/div/input'.
+
+27-05-2024T16:54:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Create Pre-Hire - Workday/input_Prefix_56551055--uid21-input'
+
+27-05-2024T16:54:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Pre-Hire - Workday/input_Miss_iqn86")): Object: 'Object Repository/Page_Create Pre-Hire - Workday/input_Miss_iqn86' is clicked on
+
+27-05-2024T16:55:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='iqn86']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:55:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Pre-Hire - Workday/input_Miss_iqn86'. Try using Self-healing.
+
+27-05-2024T16:55:08 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Pre-Hire - Workday/input_Miss_iqn86' was broken. Propose an alternative one: '//div[@id='menuItem-1695$908']/div/div/div/div/div/input'.
+
+27-05-2024T16:55:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Pre-Hire - Workday/input_Miss_iqn86' is clicked on
+
+27-05-2024T16:55:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Create Pre-Hire - Workday/input_First Name_56551056--uid22-input"), "mmo"): Text 'mmo' is set on object 'Object Repository/Page_Create Pre-Hire - Workday/input_First Name_56551056--uid22-input'
+
+27-05-2024T16:55:09 - [MESSAGE][PASSED] - Text 'mmo' is set on object 'Object Repository/Page_Create Pre-Hire - Workday/input_First Name_56551056--uid22-input'
+
+27-05-2024T16:55:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Pre-Hire - Workday/input_Last Name_56551056--uid24-input"), "Fields"): Text 'Fields' is set on object 'Object Repository/Page_Create Pre-Hire - Workday/input_Last Name_56551056--uid24-input'
+
+27-05-2024T16:55:10 - [MESSAGE][PASSED] - Text 'Fields' is set on object 'Object Repository/Page_Create Pre-Hire - Workday/input_Last Name_56551056--uid24-input'
+
+27-05-2024T16:55:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Pre-Hire - Workday/div_Contact Information")): Object: 'Object Repository/Page_Create Pre-Hire - Workday/div_Contact Information' is clicked on
+
+27-05-2024T16:55:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //li[@id='tab_c5dfd3e6-64dc-47cc-9f94-f30320f64fc6']/div[2]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:55:41 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Pre-Hire - Workday/div_Contact Information'. Try using Self-healing.
+
+27-05-2024T16:55:41 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Pre-Hire - Workday/div_Contact Information' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Legal Name Information'])[1]/following::div[3]'.
+
+27-05-2024T16:55:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Pre-Hire - Workday/div_Contact Information' is clicked on
+
+27-05-2024T16:55:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Pre-Hire - Workday/span_Add")): Object: 'Object Repository/Page_Create Pre-Hire - Workday/span_Add' is clicked on
+
+27-05-2024T16:55:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Pre-Hire - Workday/span_Add' is clicked on
+
+27-05-2024T16:55:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Pre-Hire - Workday/input_Phone Extension_56106324--uid27-input")): Object: 'Object Repository/Page_Create Pre-Hire - Workday/input_Phone Extension_56106324--uid27-input' is clicked on
+
+27-05-2024T16:56:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='56$106324--uid27-input']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:56:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Pre-Hire - Workday/input_Phone Extension_56106324--uid27-input'. Try using Self-healing.
+
+27-05-2024T16:56:13 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Pre-Hire - Workday/input_Phone Extension_56106324--uid27-input' was broken. Propose an alternative one: '//div[2]/div/div/div/ul/li[3]/div[2]/div/div/input'.
+
+27-05-2024T16:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Pre-Hire - Workday/input_Phone Extension_56106324--uid27-input' is clicked on
+
+27-05-2024T16:56:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Pre-Hire - Workday/input_Phone Number_56506134--uid26-input"), "4389263007"): Text '4389263007' is set on object 'Object Repository/Page_Create Pre-Hire - Workday/input_Phone Number_56506134--uid26-input'
+
+27-05-2024T16:56:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='56$506134--uid26-input']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:56:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Pre-Hire - Workday/input_Phone Number_56506134--uid26-input'. Try using Self-healing.
+
+27-05-2024T16:56:45 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Pre-Hire - Workday/input_Phone Number_56506134--uid26-input' was broken. Propose an alternative one: '//div[2]/div/div/div/ul/li[2]/div[2]/div/div/input'.
+
+27-05-2024T16:57:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='56$506134--uid26-input']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:57:16 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Pre-Hire - Workday/input_Phone Number_56506134--uid26-input'. Try using Self-healing.
+
+27-05-2024T16:57:16 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Pre-Hire - Workday/input_Phone Number_56506134--uid26-input' was broken. Propose an alternative one: '//div[2]/div/div/div/ul/li[2]/div[2]/div/div/input'.
+
+27-05-2024T16:57:16 - [MESSAGE][PASSED] - Text '4389263007' is set on object 'Object Repository/Page_Create Pre-Hire - Workday/input_Phone Number_56506134--uid26-input'
+
+27-05-2024T16:57:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Pre-Hire - Workday/div_Phone Number_56506134")): Object: 'Object Repository/Page_Create Pre-Hire - Workday/div_Phone Number_56506134' is clicked on
+
+27-05-2024T16:57:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Pre-Hire - Workday/div_Phone Number_56506134' is clicked on
+
+27-05-2024T16:57:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Pre-Hire - Workday/svg_Mobile_wd-icon-caret-down-small wd-icon")): Object: 'Object Repository/Page_Create Pre-Hire - Workday/svg_Mobile_wd-icon-caret-down-small wd-icon' is clicked on
+
+27-05-2024T16:57:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Pre-Hire - Workday/svg_Mobile_wd-icon-caret-down-small wd-icon' is clicked on
+
+27-05-2024T16:57:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Pre-Hire - Workday/div_Landline")): Object: 'Object Repository/Page_Create Pre-Hire - Workday/div_Landline' is clicked on
+
+27-05-2024T16:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Pre-Hire - Workday/div_Landline' is clicked on
+
+27-05-2024T16:57:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Pre-Hire - Workday/input_Type_5631871--uid29-input")): Object: 'Object Repository/Page_Create Pre-Hire - Workday/input_Type_5631871--uid29-input' is clicked on
+
+27-05-2024T16:57:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='56$31871--uid29-input']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:57:49 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Pre-Hire - Workday/input_Type_5631871--uid29-input'. Try using Self-healing.
+
+27-05-2024T16:57:49 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Pre-Hire - Workday/input_Type_5631871--uid29-input' was broken. Propose an alternative one: '//li[5]/div[2]/div/div/div/div/div/div/input'.
+
+27-05-2024T16:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Pre-Hire - Workday/input_Type_5631871--uid29-input' is clicked on
+
+27-05-2024T16:57:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Pre-Hire - Workday/input_Cancel_iqn8c")): Object: 'Object Repository/Page_Create Pre-Hire - Workday/input_Cancel_iqn8c' is clicked on
+
+27-05-2024T16:58:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='iqn8c']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:58:21 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Pre-Hire - Workday/input_Cancel_iqn8c'. Try using Self-healing.
+
+27-05-2024T16:58:21 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Pre-Hire - Workday/input_Cancel_iqn8c' was broken. Propose an alternative one: '//div[@id='menuItem-1578$3']/div/div/div/div/div/input'.
+
+27-05-2024T16:58:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Pre-Hire - Workday/input_Cancel_iqn8c' is clicked on
+
+27-05-2024T16:58:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Pre-Hire - Workday/span_OK")): Object: 'Object Repository/Page_Create Pre-Hire - Workday/span_OK' is clicked on
+
+27-05-2024T16:58:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='daec1b008f6942cc952c36c0689beefd']/span[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:58:52 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Pre-Hire - Workday/span_OK'. Try using Self-healing.
+
+27-05-2024T16:58:52 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Pre-Hire - Workday/span_OK' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Contact Information'])[2]/following::span[2]'.
+
+27-05-2024T16:58:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Pre-Hire - Workday/span_OK' is clicked on
+
+27-05-2024T16:58:52 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("t1"): Taking screenshot successfully
+
+27-05-2024T16:58:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T16:58:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-t1.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WD_tests/StartProxy" time="87.892" classname="Test Cases/WD_tests/StartProxy" status="PASSED">
+         <system-out><![CDATA[27-05-2024T16:59:08 - [TEST_CASE][PASSED] - Test Cases/WD_tests/StartProxy: Test Cases/WD_tests/StartProxy
+
+27-05-2024T16:59:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-05-2024T16:59:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+27-05-2024T16:59:08 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+27-05-2024T16:59:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-05-2024T16:59:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-05-2024T16:59:12 - [TEST_STEP][PASSED] - navigateToUrl("https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld"): Navigate to 'https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld' successfully
+
+27-05-2024T16:59:19 - [MESSAGE][PASSED] - Navigate to 'https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld' successfully
+
+27-05-2024T16:59:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-05-2024T16:59:19 - [MESSAGE][PASSED] - Current window maximized
+
+27-05-2024T16:59:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a"), "momoussaoui-impl"): Text 'momoussaoui-impl' is set on object 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a'
+
+27-05-2024T16:59:20 - [MESSAGE][PASSED] - Text 'momoussaoui-impl' is set on object 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a'
+
+27-05-2024T16:59:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B"), "ZnA8ZS7WWbLgAM3CRORbJA=="): Text ****** has been set on object 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B'
+
+27-05-2024T16:59:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B'
+
+27-05-2024T16:59:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B'
+
+27-05-2024T16:59:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B'
+
+27-05-2024T16:59:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787")): Object: 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787' is clicked on
+
+27-05-2024T16:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787' is clicked on
+
+27-05-2024T16:59:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787"), "start proxy"): Text 'start proxy' is set on object 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787'
+
+27-05-2024T16:59:26 - [MESSAGE][PASSED] - Text 'start proxy' is set on object 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787'
+
+27-05-2024T16:59:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787'
+
+27-05-2024T16:59:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787'
+
+27-05-2024T16:59:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Search Results - Saved Categories - Workday/a_Start Proxy")): Object: 'Object Repository/Page_Search Results - Saved Categories - Workday/a_Start Proxy' is clicked on
+
+27-05-2024T16:59:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='d5bdebed089b46ab814cf25830097a29']/div/div/div/div/div/ol/li/div/ol/li/div/div/div/h3/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T16:59:57 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Search Results - Saved Categories - Workday/a_Start Proxy'. Try using Self-healing.
+
+27-05-2024T16:59:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Search Results - Saved Categories - Workday/a_Start Proxy' was broken. Propose an alternative one: '//a[contains(text(),'Start Proxy')]'.
+
+27-05-2024T16:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search Results - Saved Categories - Workday/a_Start Proxy' is clicked on
+
+27-05-2024T16:59:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input")): Object: 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input' is clicked on
+
+27-05-2024T16:59:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input' is clicked on
+
+27-05-2024T16:59:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input"), "logan Mcneil"): Text 'logan Mcneil' is set on object 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input'
+
+27-05-2024T17:00:00 - [MESSAGE][PASSED] - Text 'logan Mcneil' is set on object 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input'
+
+27-05-2024T17:00:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input'
+
+27-05-2024T17:00:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Start Proxy - Workday/input_Act As_56279654--uid5-input'
+
+27-05-2024T17:00:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Start Proxy - Workday/span_OK")): Object: 'Object Repository/Page_Start Proxy - Workday/span_OK' is clicked on
+
+27-05-2024T17:00:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='fe76ee4f8f1e46848bb379ce3c122743']/span[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T17:00:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Start Proxy - Workday/span_OK'. Try using Self-healing.
+
+27-05-2024T17:00:31 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Start Proxy - Workday/span_OK' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Act As'])[1]/following::span[5]'.
+
+27-05-2024T17:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Start Proxy - Workday/span_OK' is clicked on
+
+27-05-2024T17:00:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Home - Workday/span_On behalf of Logan McNeil"), "On behalf of: Logan McNeil"): Actual text and expected text of test object 'Object Repository/Page_Home - Workday/span_On behalf of Logan McNeil' are matched.
+
+27-05-2024T17:00:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Home - Workday/span_On behalf of Logan McNeil' are matched.
+
+27-05-2024T17:00:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-05-2024T17:00:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WD_tests/PersonalInformationChange" time="0.047" classname="Test Cases/WD_tests/PersonalInformationChange" status="PASSED">
+         <system-out><![CDATA[27-05-2024T17:00:36 - [TEST_CASE][PASSED] - Test Cases/WD_tests/PersonalInformationChange: Test Cases/WD_tests/PersonalInformationChange
+
+27-05-2024T17:00:36 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WD_tests/CreatePosition" time="116.806" classname="Test Cases/WD_tests/CreatePosition" status="FAILED">
+         <failure type="FAILED" message="Test Cases/WD_tests/CreatePosition FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Create Position - Workday/span_Create Position' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at CreatePosition.run(CreatePosition:65)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1716842387563.run(TempTestSuite1716842387563.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Create Position' of test object 'Object Repository/Page_Create Position - Workday/span_Create Position' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[27-05-2024T17:06:34 - [TEST_CASE][FAILED] - Test Cases/WD_tests/CreatePosition: Test Cases/WD_tests/CreatePosition FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Create Position - Workday/span_Create Position' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at CreatePosition.run(CreatePosition:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716842387563.run(TempTestSuite1716842387563.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Create Position' of test object 'Object Repository/Page_Create Position - Workday/span_Create Position' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+27-05-2024T17:06:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-05-2024T17:06:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+27-05-2024T17:06:35 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+27-05-2024T17:06:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-05-2024T17:06:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-05-2024T17:06:38 - [TEST_STEP][PASSED] - navigateToUrl("https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld"): Navigate to 'https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld' successfully
+
+27-05-2024T17:06:40 - [MESSAGE][PASSED] - Navigate to 'https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld' successfully
+
+27-05-2024T17:06:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-05-2024T17:06:41 - [MESSAGE][PASSED] - Current window maximized
+
+27-05-2024T17:06:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a"), "z"): Text 'z' is set on object 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a'
+
+27-05-2024T17:06:41 - [MESSAGE][PASSED] - Text 'z' is set on object 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a'
+
+27-05-2024T17:06:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/div_Login PageNom dutilisateurMot de passeC_39fc6f")): Object: 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/div_Login PageNom dutilisateurMot de passeC_39fc6f' is clicked on
+
+27-05-2024T17:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/div_Login PageNom dutilisateurMot de passeC_39fc6f' is clicked on
+
+27-05-2024T17:06:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a"), "momousaoui-impl"): Text 'momousaoui-impl' is set on object 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a'
+
+27-05-2024T17:06:42 - [MESSAGE][PASSED] - Text 'momousaoui-impl' is set on object 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a'
+
+27-05-2024T17:06:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B"), "ZnA8ZS7WWbLgAM3CRORbJA=="): Text ****** has been set on object 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B'
+
+27-05-2024T17:06:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B'
+
+27-05-2024T17:06:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/button_Connexion")): Object: 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/button_Connexion' is clicked on
+
+27-05-2024T17:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/button_Connexion' is clicked on
+
+27-05-2024T17:06:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a"), "momoussaoui-impl"): Text 'momoussaoui-impl' is set on object 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a'
+
+27-05-2024T17:06:44 - [MESSAGE][PASSED] - Text 'momoussaoui-impl' is set on object 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a'
+
+27-05-2024T17:06:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B"), "ZnA8ZS7WWbLgAM3CRORbJA=="): Text ****** has been set on object 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B'
+
+27-05-2024T17:06:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B'
+
+27-05-2024T17:06:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/button_Connexion")): Object: 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/button_Connexion' is clicked on
+
+27-05-2024T17:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workday deloittecansrv_dpt1 - Connexio_94ab08/button_Connexion' is clicked on
+
+27-05-2024T17:06:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787")): Object: 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787' is clicked on
+
+27-05-2024T17:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787' is clicked on
+
+27-05-2024T17:06:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787"), "create position"): Text 'create position' is set on object 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787'
+
+27-05-2024T17:06:50 - [MESSAGE][PASSED] - Text 'create position' is set on object 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787'
+
+27-05-2024T17:06:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home - Workday/span_Create")): Object: 'Object Repository/Page_Home - Workday/span_Create' is clicked on
+
+27-05-2024T17:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Workday/span_Create' is clicked on
+
+27-05-2024T17:06:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Position - Workday/input_Supervisory Organization_569743--uid5-input"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Create Position - Workday/input_Supervisory Organization_569743--uid5-input' is clicked on
+
+27-05-2024T17:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Position - Workday/input_Supervisory Organization_569743--uid5-input' is clicked on
+
+27-05-2024T17:06:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Position - Workday/input_Supervisory Organization_569743--uid5-input"), "supervisory organizations"): Text 'supervisory organizations' is set on object 'Object Repository/Page_Create Position - Workday/input_Supervisory Organization_569743--uid5-input'
+
+27-05-2024T17:06:54 - [MESSAGE][PASSED] - Text 'supervisory organizations' is set on object 'Object Repository/Page_Create Position - Workday/input_Supervisory Organization_569743--uid5-input'
+
+27-05-2024T17:06:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Position - Workday/div_Supervisory Organizations")): Object: 'Object Repository/Page_Create Position - Workday/div_Supervisory Organizations' is clicked on
+
+27-05-2024T17:07:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='promptOption-55cdcfba-3e5f-43a5-b0a5-8faa0c5ec4f5']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T17:07:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Position - Workday/div_Supervisory Organizations'. Try using Self-healing.
+
+27-05-2024T17:07:25 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Position - Workday/div_Supervisory Organizations' was broken. Propose an alternative one: '//div[@id='menuItem-45$2764']/div/div'.
+
+27-05-2024T17:07:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Position - Workday/div_Supervisory Organizations' is clicked on
+
+27-05-2024T17:07:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Position - Workday/div_100 AR Info")): Object: 'Object Repository/Page_Create Position - Workday/div_100 AR Info' is clicked on
+
+27-05-2024T17:07:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='promptOption-c6596eef-9da4-4e78-adb6-21e2fdfa36de']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T17:07:57 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Position - Workday/div_100 AR Info'. Try using Self-healing.
+
+27-05-2024T17:07:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Position - Workday/div_100 AR Info' was broken. Propose an alternative one: '//div[@id='menuItem-2500$380']/div/div[2]'.
+
+27-05-2024T17:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Position - Workday/div_100 AR Info' is clicked on
+
+27-05-2024T17:07:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Position - Workday/span_OK")): Object: 'Object Repository/Page_Create Position - Workday/span_OK' is clicked on
+
+27-05-2024T17:08:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='c0553ba8f9db4b16910d1851fa614f6e']/span[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T17:08:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Position - Workday/span_OK'. Try using Self-healing.
+
+27-05-2024T17:08:28 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Position - Workday/span_OK' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::span[4]'.
+
+27-05-2024T17:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Position - Workday/span_OK' is clicked on
+
+27-05-2024T17:08:29 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/Page_Create Position - Workday/span_Create Position"), "Create Position"): Verify element text of test object 'Object Repository/Page_Create Position - Workday/span_Create Position' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Create Position - Workday/span_Create Position' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at CreatePosition.run(CreatePosition:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716842387563.run(TempTestSuite1716842387563.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Create Position' of test object 'Object Repository/Page_Create Position - Workday/span_Create Position' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+27-05-2024T17:08:31 - [MESSAGE][FAILED] - Actual text '' and expected text 'Create Position' of test object 'Object Repository/Page_Create Position - Workday/span_Create Position' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Create Position' of test object 'Object Repository/Page_Create Position - Workday/span_Create Position' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at CreatePosition.run(CreatePosition:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716842387563.run(TempTestSuite1716842387563.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\momoussaoui@deloitte.ca\\git\\Katalon-poc\\Reports\\20240527_163947\\WD\\20240527_163947\\1716844111473.png]]
+
+27-05-2024T17:08:31 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_Create Position - Workday/span_Create Position' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Create Position - Workday/span_Create Position' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at CreatePosition.run(CreatePosition:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716842387563.run(TempTestSuite1716842387563.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Create Position' of test object 'Object Repository/Page_Create Position - Workday/span_Create Position' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\momoussaoui@deloitte.ca\\git\\Katalon-poc\\Reports\\20240527_163947\\WD\\20240527_163947\\1716844111626.png]]]]></system-out>
+         <system-err><![CDATA[27-05-2024T17:06:34 - [TEST_CASE][FAILED] - Test Cases/WD_tests/CreatePosition: Test Cases/WD_tests/CreatePosition FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Create Position - Workday/span_Create Position' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at CreatePosition.run(CreatePosition:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716842387563.run(TempTestSuite1716842387563.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Create Position' of test object 'Object Repository/Page_Create Position - Workday/span_Create Position' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WD_tests/Create1" time="48.183" classname="Test Cases/WD_tests/Create1" status="PASSED">
+         <system-out><![CDATA[27-05-2024T17:08:31 - [TEST_CASE][PASSED] - Test Cases/WD_tests/Create1: Test Cases/WD_tests/Create1
+
+27-05-2024T17:08:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-05-2024T17:08:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+27-05-2024T17:08:32 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+27-05-2024T17:08:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-05-2024T17:08:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-05-2024T17:08:35 - [TEST_STEP][PASSED] - navigateToUrl("https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld"): Navigate to 'https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld' successfully
+
+27-05-2024T17:08:37 - [MESSAGE][PASSED] - Navigate to 'https://impl.workday.com/wday/authgwy/deloittecansrv_dpt1/login.htmld' successfully
+
+27-05-2024T17:08:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-05-2024T17:08:37 - [MESSAGE][PASSED] - Current window maximized
+
+27-05-2024T17:08:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a"), "momoussaoui-impl"): Text 'momoussaoui-impl' is set on object 'Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a'
+
+27-05-2024T17:08:38 - [MESSAGE][PASSED] - Text 'momoussaoui-impl' is set on object 'Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_concat(Nom d, , utilisateur)_gwt-Text_b82a8a'
+
+27-05-2024T17:08:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B"), "ZnA8ZS7WWbLgAM3CRORbJA=="): Text ****** has been set on object 'Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B'
+
+27-05-2024T17:08:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/input_Mot de passe_gwt-PasswordTextBox GDPVGE1BC3B'
+
+27-05-2024T17:08:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/button_Ouvrir une session")): Object: 'Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/button_Ouvrir une session' is clicked on
+
+27-05-2024T17:08:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workday deloittecansrv_dpt1-Ouvrir une_d947d1/button_Ouvrir une session' is clicked on
+
+27-05-2024T17:08:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787")): Object: 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787' is clicked on
+
+27-05-2024T17:08:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787' is clicked on
+
+27-05-2024T17:08:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787"), "create position"): Text 'create position' is set on object 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787'
+
+27-05-2024T17:08:44 - [MESSAGE][PASSED] - Text 'create position' is set on object 'Object Repository/Page_Home - Workday/input_Add Shortcuts_css-gow7vg-InputElement_4f4787'
+
+27-05-2024T17:08:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home - Workday/div_Create Position")): Object: 'Object Repository/Page_Home - Workday/div_Create Position' is clicked on
+
+27-05-2024T17:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Workday/div_Create Position' is clicked on
+
+27-05-2024T17:08:46 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("3"): Taking screenshot successfully
+
+27-05-2024T17:08:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T17:08:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-3.png]]
+
+27-05-2024T17:08:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Position - Workday/button_Cancel")): Object: 'Object Repository/Page_Create Position - Workday/button_Cancel' is clicked on
+
+27-05-2024T17:09:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='336b6c26eb5c4a25967a7a8847710f54']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2024T17:09:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Create Position - Workday/button_Cancel'. Try using Self-healing.
+
+27-05-2024T17:09:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Create Position - Workday/button_Cancel' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Supervisory Organization'])[1]/following::button[5]'.
+
+27-05-2024T17:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Position - Workday/button_Cancel' is clicked on
+
+27-05-2024T17:09:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-05-2024T17:09:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-05-2024T16:39:52 - [TEST_SUITE][FAILED] - WD: Test Cases/WD_tests/TC002 Create Pre Hire FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Create Pre-Hire - Workday/div_Contact Information'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC002 Create Pre Hire.run(TC002 Create Pre Hire:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716842387563.run(TempTestSuite1716842387563.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="gwt-Label WIH2" data-automation-id="tabLabel">...</div> is not clickable at point (291, 381). Other element would receive the click: <div id="promptOption-ac682c1f-6964-457e-9834-eb5a53c68e0d" data-automation-id="promptOption" data-automation-label="..." class="css-svf4lv-LabelContainer-1 edt0qdt4">Frequently Used</div>
+  (Session info: MicrosoftEdge=124.0.2478.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CAW2204108', ip: '10.0.0.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.97, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:50300}, msedge: {msedgedriverVersion: 123.0.2420.65 (49b6a5859239..., userDataDir: C:\Users\MOMOUS~1.CA\AppDat...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce91a5df023307311c0c6d3e98132d74
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[27-05-2024T16:39:52 - [TEST_SUITE][FAILED] - WD: Test Cases/WD_tests/TC002 Create Pre Hire FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Create Pre-Hire - Workday/div_Contact Information'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC002 Create Pre Hire.run(TC002 Create Pre Hire:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716842387563.run(TempTestSuite1716842387563.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="gwt-Label WIH2" data-automation-id="tabLabel">...</div> is not clickable at point (291, 381). Other element would receive the click: <div id="promptOption-ac682c1f-6964-457e-9834-eb5a53c68e0d" data-automation-id="promptOption" data-automation-label="..." class="css-svf4lv-LabelContainer-1 edt0qdt4">Frequently Used</div>
+  (Session info: MicrosoftEdge=124.0.2478.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CAW2204108', ip: '10.0.0.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.97, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:50300}, msedge: {msedgedriverVersion: 123.0.2420.65 (49b6a5859239..., userDataDir: C:\Users\MOMOUS~1.CA\AppDat...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce91a5df023307311c0c6d3e98132d74
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

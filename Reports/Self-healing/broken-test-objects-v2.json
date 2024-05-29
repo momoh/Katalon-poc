@@ -269,6 +269,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Start Proxy - Workday/span_OK_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Hire Employee - Workday/path_Country_wd-icon-fill",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "span.e1vboyyf0.css-1xkya3h-StyledBoxElement.eizlapt0 \u003e svg.wd-icon-x-small.wd-icon \u003e g.wd-icon-container \u003e path.wd-icon-fill",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Hire Employee - Workday/path_Country_wd-icon-fill_CSS.png"
     }
   ]
 }
